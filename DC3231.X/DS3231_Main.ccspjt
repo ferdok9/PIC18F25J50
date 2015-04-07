@@ -1,0 +1,16 @@
+[PROJECT]
+Target=build\default\production\DS3231_Main.hex
+Processor_Text=PIC18F25J50
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=DS3231_Main.c
+[build\default\production\DS3231_Main.c]
+Type=4
+[mru-list]
+1=build\default\production\DS3231_Main.c
+[dist\default\production\DS3231_Main.c]
+Type=4
+[Units]
+Count=1
+1=DS3231_Main (main)

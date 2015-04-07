@@ -1,0 +1,5 @@
+H:\Chast_2\PROEKTI\DC3231\PIC18F25J50\DC3231.X\DS3231.c:25:11:  Warning#202  Variable never used:   u8ByteCountL
+H:\Chast_2\PROEKTI\DC3231\PIC18F25J50\DC3231.X\DS3231_Main.c:81:11:  Warning#202  Variable never used:   u8AckL
+      Memory usage:   ROM=8%      RAM=2% - 2%
+      0 Errors,  2 Warnings.
+Build Successful.

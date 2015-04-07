@@ -1,0 +1,49 @@
+ÀÄDC3231
+   ÃÄMAIN  0/226  Ram=20
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄ@delay_ms1  0/44  Ram=1
+   ³  ÃÄ@PSTRINGC_115200_31766_31767  0/34  Ram=2
+   ³  ÃÄ@PSTRINGC_115200_31766_31767  0/34  Ram=2
+   ³  ÃÄDS3231_Print_Clock  0/198  Ram=8
+   ³  ³  ÃÄDS3231_Read_Clock  0/152  Ram=8
+   ³  ³  ³  ÀÄDS3231_Reade_Pointer  0/134  Ram=10
+   ³  ³  ³     ÃÄ@I2C_WRITEU_1  0/28  Ram=1
+   ³  ³  ³     ÃÄ@I2C_WRITEU_1  0/28  Ram=1
+   ³  ³  ³     ÃÄ@I2C_WRITEU_1  0/28  Ram=1
+   ³  ³  ³     ÃÄ@I2C_READU_1  0/28  Ram=1
+   ³  ³  ³     ÀÄ@I2C_READU_1  0/28  Ram=1
+   ³  ³  ÃÄ@PRINTF_D_115200_31766_31767  0/178  Ram=6
+   ³  ³  ³  ÃÄ@DIV88  0/40  Ram=3
+   ³  ³  ³  ÀÄ@DIV88  0/40  Ram=3
+   ³  ³  ÃÄ@PRINTF_D_115200_31766_31767  0/178  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_D_115200_31766_31767  0/178  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_D_115200_31766_31767  0/178  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_D_115200_31766_31767  0/178  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄ@PRINTF_D_115200_31766_31767  0/178  Ram=6
+   ³  ³     ÀÄ*
+   ³  ÃÄDS3231_Print_Data  0/364  Ram=8
+   ³  ³  ÃÄDS3231_Read_Data  0/172  Ram=9
+   ³  ³  ³  ÀÄDS3231_Reade_Pointer  0/134  Ram=10
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄ@PRINTF_D_115200_31766_31767  0/178  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_D_115200_31766_31767  0/178  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_D_115200_31766_31767  0/178  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_D_115200_31766_31767  0/178  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_D_115200_31766_31767  0/178  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_D_115200_31766_31767  0/178  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄ@goto11055  0/40  Ram=0
+   ³  ÃÄDS3231_String_To_Massiv_Clock  0/96  Ram=4
+   ³  ÀÄ@delay_ms1  0/44  Ram=1
+   ÀÄRDA_isr  0/150  Ram=3
+      ÃÄ@goto11114  0/34  Ram=0
+      ÀÄ@PSTRINGR_115200_31766_31767  0/40  Ram=2

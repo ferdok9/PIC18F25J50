@@ -1,0 +1,61 @@
+ÀÄDC3231
+   ÀÄMAIN  0/180  Ram=20
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄ@delay_ms1  0/44  Ram=1
+      ÃÄ@PSTRINGC_115200_31766_31767  0/34  Ram=2
+      ÃÄDS3231_Init_Clock  0/118  Ram=9
+      ³  ÃÄDS3231_Write  0/68  Ram=6
+      ³  ³  ÃÄ@I2C_WRITEU_1  0/28  Ram=1
+      ³  ³  ÃÄ@I2C_WRITEU_1  0/28  Ram=1
+      ³  ³  ÀÄ@I2C_WRITEU_1  0/28  Ram=1
+      ³  ÃÄDS3231_Write  0/68  Ram=6
+      ³  ³  ÀÄ*
+      ³  ÀÄDS3231_Write  0/68  Ram=6
+      ³     ÀÄ*
+      ÃÄDS3231_Init_Data  0/130  Ram=9
+      ³  ÃÄDS3231_Write  0/68  Ram=6
+      ³  ³  ÀÄ*
+      ³  ÃÄDS3231_Write  0/68  Ram=6
+      ³  ³  ÀÄ*
+      ³  ÀÄDS3231_Write  0/68  Ram=6
+      ³     ÀÄ*
+      ÃÄ@PSTRINGC_115200_31766_31767  0/34  Ram=2
+      ÃÄDS3231_Print_Clock  0/198  Ram=8
+      ³  ÃÄDS3231_Read_Clock  0/152  Ram=8
+      ³  ³  ÀÄDS3231_Reade_Pointer  0/134  Ram=10
+      ³  ³     ÃÄ@I2C_WRITEU_1  0/28  Ram=1
+      ³  ³     ÃÄ@I2C_WRITEU_1  0/28  Ram=1
+      ³  ³     ÃÄ@I2C_WRITEU_1  0/28  Ram=1
+      ³  ³     ÃÄ@I2C_READU_1  0/28  Ram=1
+      ³  ³     ÀÄ@I2C_READU_1  0/28  Ram=1
+      ³  ÃÄ@PRINTF_D_115200_31766_31767  0/178  Ram=6
+      ³  ³  ÃÄ@DIV88  0/40  Ram=3
+      ³  ³  ÀÄ@DIV88  0/40  Ram=3
+      ³  ÃÄ@PRINTF_D_115200_31766_31767  0/178  Ram=6
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PRINTF_D_115200_31766_31767  0/178  Ram=6
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PRINTF_D_115200_31766_31767  0/178  Ram=6
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PRINTF_D_115200_31766_31767  0/178  Ram=6
+      ³  ³  ÀÄ*
+      ³  ÀÄ@PRINTF_D_115200_31766_31767  0/178  Ram=6
+      ³     ÀÄ*
+      ÃÄDS3231_Print_Data  0/364  Ram=8
+      ³  ÃÄDS3231_Read_Data  0/172  Ram=9
+      ³  ³  ÀÄDS3231_Reade_Pointer  0/134  Ram=10
+      ³  ³     ÀÄ*
+      ³  ÃÄ@PRINTF_D_115200_31766_31767  0/178  Ram=6
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PRINTF_D_115200_31766_31767  0/178  Ram=6
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PRINTF_D_115200_31766_31767  0/178  Ram=6
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PRINTF_D_115200_31766_31767  0/178  Ram=6
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PRINTF_D_115200_31766_31767  0/178  Ram=6
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PRINTF_D_115200_31766_31767  0/178  Ram=6
+      ³  ³  ÀÄ*
+      ³  ÀÄ@goto11051  0/40  Ram=0
+      ÀÄ@delay_ms1  0/44  Ram=1

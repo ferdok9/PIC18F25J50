@@ -1,0 +1,2298 @@
+CCS PCH C Compiler, Version 5.025, 27551               01-Apr-15 17:09
+
+               Filename:   C:\Users\akulini\Desktop\Kulin\Doc\IGRACHKI\DC3231\DC3231.X\dist\default\production\DS3231_Main.lst
+
+               ROM used:   2516 bytes (8%)
+                           Largest free fragment is 30244
+               RAM used:   25 (1%) at main() level
+                           42 (1%) worst case
+               Stack used: 2 locations
+               Stack size: 31
+
+*
+0000:  GOTO   0920
+.................... #include "Config.h" 
+.................... #include <18F25J50.h> 
+.................... //////////// Standard Header file for the PIC18F25J50 device //////////////// 
+.................... /////////////////////////////////////////////////////////////////////////// 
+.................... ////        (C) Copyright 1996, 2013 Custom Computer Services          //// 
+.................... //// This source code may only be used by licensed users of the CCS C  //// 
+.................... //// compiler.  This source code may only be distributed to other      //// 
+.................... //// licensed users of the CCS C compiler.  No other use, reproduction //// 
+.................... //// or distribution is permitted without written permission.          //// 
+.................... //// Derivative programs created using this software in object code    //// 
+.................... //// form are not restricted in any way.                               //// 
+.................... /////////////////////////////////////////////////////////////////////////// 
+.................... #device PIC18F25J50 
+0004:  DATA 0A,0D
+0006:  DATA 63,6F
+0008:  DATA 75,6E
+000A:  DATA 74,20
+000C:  DATA 3D,20
+000E:  DATA 25,78
+0010:  DATA 00,00
+0012:  DATA 0A,0D
+0014:  DATA 41,44
+0016:  DATA 44,52
+0018:  DATA 45,53
+001A:  DATA 20,3D
+001C:  DATA 20,25
+001E:  DATA 78,00
+0020:  DATA 0A,0D
+0022:  DATA 49,6E
+0024:  DATA 69,74
+0026:  DATA 0A,0D
+0028:  DATA 31,3A
+002A:  DATA 25,78
+002C:  DATA 00,00
+002E:  DATA 0A,0D
+0030:  DATA 20,53
+0032:  DATA 53,44
+0034:  DATA 31,33
+0036:  DATA 30,36
+0038:  DATA 5F,44
+003A:  DATA 49,53
+003C:  DATA 50,4C
+003E:  DATA 41,59
+0040:  DATA 5F,4F
+0042:  DATA 46,46
+0044:  DATA 20,20
+0046:  DATA 3A,25
+0048:  DATA 78,00
+004A:  DATA 0A,0D
+004C:  DATA 20,53
+004E:  DATA 53,44
+0050:  DATA 31,33
+0052:  DATA 30,36
+0054:  DATA 5F,53
+0056:  DATA 45,54
+0058:  DATA 5F,44
+005A:  DATA 49,53
+005C:  DATA 50,4C
+005E:  DATA 41,59
+0060:  DATA 5F,43
+0062:  DATA 4C,4F
+0064:  DATA 43,4B
+0066:  DATA 5F,44
+0068:  DATA 49,56
+006A:  DATA 20,20
+006C:  DATA 3A,25
+006E:  DATA 78,00
+0070:  DATA 0A,0D
+0072:  DATA 20,53
+0074:  DATA 53,44
+0076:  DATA 31,33
+0078:  DATA 30,36
+007A:  DATA 5F,53
+007C:  DATA 45,54
+007E:  DATA 5F,4D
+0080:  DATA 55,4C
+0082:  DATA 54,49
+0084:  DATA 50,4C
+0086:  DATA 45,58
+0088:  DATA 20,20
+008A:  DATA 3A,25
+008C:  DATA 78,00
+008E:  DATA 0A,0D
+0090:  DATA 20,53
+0092:  DATA 53,44
+0094:  DATA 31,33
+0096:  DATA 30,36
+0098:  DATA 5F,53
+009A:  DATA 45,54
+009C:  DATA 5F,44
+009E:  DATA 49,53
+00A0:  DATA 50,4C
+00A2:  DATA 41,59
+00A4:  DATA 5F,4F
+00A6:  DATA 46,46
+00A8:  DATA 53,45
+00AA:  DATA 54,20
+00AC:  DATA 20,3A
+00AE:  DATA 25,78
+00B0:  DATA 00,00
+00B2:  DATA 0A,0D
+00B4:  DATA 20,53
+00B6:  DATA 53,44
+00B8:  DATA 31,33
+00BA:  DATA 30,36
+00BC:  DATA 5F,53
+00BE:  DATA 45,54
+00C0:  DATA 5F,53
+00C2:  DATA 54,41
+00C4:  DATA 52,54
+00C6:  DATA 5F,4C
+00C8:  DATA 49,4E
+00CA:  DATA 45,20
+00CC:  DATA 20,3A
+00CE:  DATA 25,78
+00D0:  DATA 00,00
+00D2:  DATA 0A,0D
+00D4:  DATA 20,53
+00D6:  DATA 53,44
+00D8:  DATA 31,33
+00DA:  DATA 30,36
+00DC:  DATA 5F,43
+00DE:  DATA 48,41
+00E0:  DATA 52,47
+00E2:  DATA 45,5F
+00E4:  DATA 50,55
+00E6:  DATA 4D,50
+00E8:  DATA 20,20
+00EA:  DATA 3A,25
+00EC:  DATA 78,00
+00EE:  DATA 0A,0D
+00F0:  DATA 20,53
+00F2:  DATA 53,44
+00F4:  DATA 31,33
+00F6:  DATA 30,36
+00F8:  DATA 5F,4D
+00FA:  DATA 45,4D
+00FC:  DATA 4F,52
+00FE:  DATA 59,5F
+0100:  DATA 4D,4F
+0102:  DATA 44,45
+0104:  DATA 20,20
+0106:  DATA 3A,25
+0108:  DATA 78,00
+010A:  DATA 0A,0D
+010C:  DATA 20,53
+010E:  DATA 53,44
+0110:  DATA 31,33
+0112:  DATA 30,36
+0114:  DATA 5F,53
+0116:  DATA 45,47
+0118:  DATA 5F,52
+011A:  DATA 45,4D
+011C:  DATA 41,50
+011E:  DATA 20,20
+0120:  DATA 3A,25
+0122:  DATA 78,00
+0124:  DATA 0A,0D
+0126:  DATA 20,53
+0128:  DATA 53,44
+012A:  DATA 31,33
+012C:  DATA 30,36
+012E:  DATA 5F,43
+0130:  DATA 4F,4D
+0132:  DATA 5F,53
+0134:  DATA 43,41
+0136:  DATA 4E,5F
+0138:  DATA 44,45
+013A:  DATA 43,20
+013C:  DATA 20,3A
+013E:  DATA 25,78
+0140:  DATA 00,00
+0142:  DATA 0A,0D
+0144:  DATA 20,53
+0146:  DATA 53,44
+0148:  DATA 31,33
+014A:  DATA 30,36
+014C:  DATA 5F,53
+014E:  DATA 45,54
+0150:  DATA 5F,43
+0152:  DATA 4F,4D
+0154:  DATA 50,49
+0156:  DATA 4E,53
+0158:  DATA 20,20
+015A:  DATA 3A,25
+015C:  DATA 78,00
+015E:  DATA 0A,0D
+0160:  DATA 20,53
+0162:  DATA 53,44
+0164:  DATA 31,33
+0166:  DATA 30,36
+0168:  DATA 5F,53
+016A:  DATA 45,54
+016C:  DATA 5F,43
+016E:  DATA 4F,4E
+0170:  DATA 54,52
+0172:  DATA 41,53
+0174:  DATA 54,20
+0176:  DATA 20,3A
+0178:  DATA 25,78
+017A:  DATA 00,00
+017C:  DATA 0A,0D
+017E:  DATA 20,53
+0180:  DATA 53,44
+0182:  DATA 31,33
+0184:  DATA 30,36
+0186:  DATA 5F,53
+0188:  DATA 45,54
+018A:  DATA 5F,50
+018C:  DATA 52,45
+018E:  DATA 43,48
+0190:  DATA 41,52
+0192:  DATA 47,45
+0194:  DATA 20,20
+0196:  DATA 3A,25
+0198:  DATA 78,00
+019A:  DATA 0A,0D
+019C:  DATA 20,53
+019E:  DATA 53,44
+01A0:  DATA 31,33
+01A2:  DATA 30,36
+01A4:  DATA 5F,53
+01A6:  DATA 45,54
+01A8:  DATA 5F,56
+01AA:  DATA 43,4F
+01AC:  DATA 4D,5F
+01AE:  DATA 44,45
+01B0:  DATA 54,45
+01B2:  DATA 43,54
+01B4:  DATA 20,20
+01B6:  DATA 3A,25
+01B8:  DATA 78,00
+01BA:  DATA 0A,0D
+01BC:  DATA 20,53
+01BE:  DATA 53,44
+01C0:  DATA 31,33
+01C2:  DATA 30,36
+01C4:  DATA 5F,44
+01C6:  DATA 49,53
+01C8:  DATA 50,4C
+01CA:  DATA 41,59
+01CC:  DATA 5F,41
+01CE:  DATA 4C,4C
+01D0:  DATA 5F,4F
+01D2:  DATA 4E,5F
+01D4:  DATA 52,45
+01D6:  DATA 53,55
+01D8:  DATA 4D,45
+01DA:  DATA 20,20
+01DC:  DATA 3A,25
+01DE:  DATA 78,00
+01E0:  DATA 0A,0D
+01E2:  DATA 20,53
+01E4:  DATA 53,44
+01E6:  DATA 31,33
+01E8:  DATA 30,36
+01EA:  DATA 5F,44
+01EC:  DATA 49,53
+01EE:  DATA 50,4C
+01F0:  DATA 41,59
+01F2:  DATA 5F,4E
+01F4:  DATA 4F,52
+01F6:  DATA 4D,41
+01F8:  DATA 4C,20
+01FA:  DATA 20,3A
+01FC:  DATA 25,78
+01FE:  DATA 00,00
+0200:  DATA 0A,0D
+0202:  DATA 20,53
+0204:  DATA 53,44
+0206:  DATA 31,33
+0208:  DATA 30,36
+020A:  DATA 5F,44
+020C:  DATA 49,53
+020E:  DATA 50,4C
+0210:  DATA 41,59
+0212:  DATA 5F,4F
+0214:  DATA 4E,20
+0216:  DATA 20,3A
+0218:  DATA 25,78
+021A:  DATA 00,00
+021C:  DATA 0A,0D
+021E:  DATA 49,6E
+0220:  DATA 69,74
+0222:  DATA 0A,0D
+0224:  DATA 31,3A
+0226:  DATA 25,78
+0228:  DATA 00,00
+022A:  DATA 0A,0D
+022C:  DATA 32,3A
+022E:  DATA 25,78
+0230:  DATA 00,00
+0232:  DATA 0A,0D
+0234:  DATA 33,3A
+0236:  DATA 25,78
+0238:  DATA 00,00
+023A:  DATA 0A,0D
+023C:  DATA 70,72
+023E:  DATA 6F,62
+0240:  DATA 61,20
+0242:  DATA 7A,61
+0244:  DATA 20,69
+0246:  DATA 6E,69
+0248:  DATA 74,0A
+024A:  DATA 0D,00
+024C:  DATA 0A,0D
+024E:  DATA 41,66
+0250:  DATA 74,65
+0252:  DATA 72,20
+0254:  DATA 53,65
+0256:  DATA 74,43
+0258:  DATA 6C,6F
+025A:  DATA 63,6B
+025C:  DATA 0A,0D
+025E:  DATA 00,00
+*
+028C:  TBLRD*+
+028E:  MOVF   FF5,F
+0290:  BZ    02AC
+0292:  MOVFF  FF6,17
+0296:  MOVFF  FF7,18
+029A:  MOVF   FF5,W
+029C:  BTFSS  F9E.4
+029E:  BRA    029C
+02A0:  MOVWF  FAE
+02A2:  MOVFF  17,FF6
+02A6:  MOVFF  18,FF7
+02AA:  BRA    028C
+02AC:  RETURN 0
+*
+0540:  MOVF   26,W
+0542:  CLRF   01
+0544:  SUBWF  25,W
+0546:  BC    054E
+0548:  MOVFF  25,00
+054C:  BRA    0566
+054E:  CLRF   00
+0550:  MOVLW  08
+0552:  MOVWF  27
+0554:  RLCF   25,F
+0556:  RLCF   00,F
+0558:  MOVF   26,W
+055A:  SUBWF  00,W
+055C:  BTFSC  FD8.0
+055E:  MOVWF  00
+0560:  RLCF   01,F
+0562:  DECFSZ 27,F
+0564:  BRA    0554
+0566:  RETURN 0
+0568:  MOVLW  20
+056A:  BTFSS  20.4
+056C:  MOVLW  30
+056E:  MOVWF  21
+0570:  MOVFF  1F,00
+0574:  BTFSS  1F.7
+0576:  BRA    0588
+0578:  COMF   00,F
+057A:  INCF   00,F
+057C:  MOVFF  00,1F
+0580:  MOVLW  2D
+0582:  MOVWF  21
+0584:  BSF    20.7
+0586:  BSF    20.0
+0588:  MOVF   01,W
+058A:  MOVFF  1F,25
+058E:  MOVLW  64
+0590:  MOVWF  26
+0592:  RCALL  0540
+0594:  MOVFF  00,1F
+0598:  MOVLW  30
+059A:  ADDWF  01,W
+059C:  MOVWF  22
+059E:  MOVFF  1F,25
+05A2:  MOVLW  0A
+05A4:  MOVWF  26
+05A6:  RCALL  0540
+05A8:  MOVLW  30
+05AA:  ADDWF  00,W
+05AC:  MOVWF  24
+05AE:  MOVLW  30
+05B0:  ADDWF  01,W
+05B2:  MOVWF  23
+05B4:  MOVFF  21,00
+05B8:  MOVLW  30
+05BA:  SUBWF  22,W
+05BC:  BZ    05C6
+05BE:  BSF    20.1
+05C0:  BTFSC  20.7
+05C2:  BSF    20.2
+05C4:  BRA    05EA
+05C6:  MOVFF  21,22
+05CA:  MOVLW  20
+05CC:  MOVWF  21
+05CE:  MOVLW  30
+05D0:  SUBWF  23,W
+05D2:  BZ    05DC
+05D4:  BSF    20.0
+05D6:  BTFSC  20.7
+05D8:  BSF    20.1
+05DA:  BRA    05EA
+05DC:  BTFSS  FD8.2
+05DE:  BSF    20.0
+05E0:  BNZ   05EA
+05E2:  MOVFF  22,23
+05E6:  MOVLW  20
+05E8:  MOVWF  22
+05EA:  BTFSC  20.2
+05EC:  BRA    05F8
+05EE:  BTFSC  20.1
+05F0:  BRA    0600
+05F2:  BTFSC  20.0
+05F4:  BRA    0608
+05F6:  BRA    0610
+05F8:  MOVF   21,W
+05FA:  BTFSS  F9E.4
+05FC:  BRA    05FA
+05FE:  MOVWF  FAE
+0600:  MOVF   22,W
+0602:  BTFSS  F9E.4
+0604:  BRA    0602
+0606:  MOVWF  FAE
+0608:  MOVF   23,W
+060A:  BTFSS  F9E.4
+060C:  BRA    060A
+060E:  MOVWF  FAE
+0610:  MOVF   24,W
+0612:  BTFSS  F9E.4
+0614:  BRA    0612
+0616:  MOVWF  FAE
+0618:  RETURN 0
+*
+08F8:  ADDWF  FE8,W
+08FA:  CLRF   FF7
+08FC:  RLCF   FF7,F
+08FE:  ADDLW  13
+0900:  MOVWF  FF6
+0902:  MOVLW  09
+0904:  ADDWFC FF7,F
+0906:  TBLRD*-
+0908:  MOVF   FF5,W
+090A:  MOVWF  FFA
+090C:  TBLRD*
+090E:  MOVF   FF5,W
+0910:  MOVWF  FF9
+0912:  DATA 78,08
+0914:  DATA 8A,08
+0916:  DATA 9C,08
+0918:  DATA AE,08
+091A:  DATA C0,08
+091C:  DATA D2,08
+091E:  DATA E4,08
+....................  
+.................... #list 
+....................  
+....................  
+.................... #include "SFR.h" 
+....................  
+.................... 	#define NOP #asm nop #endasm 
+.................... 	#define BTG() #asm btg #endasm 
+....................  
+.................... 	#byte	STATUS          =       0xFD8 
+.................... 	#bit	Cery            =       STATUS.0 //No carry-out from the MSb of the result occurred 
+....................  
+.................... 	#byte	OSCCON          =       0xFD3 
+....................         #bit    OSTS            =       OSCCON.3 //Oscillator Start-up Timer time-out has expired 
+....................  
+.................... //PORT 
+....................  
+.................... 	//PORTA 
+.................... 	#byte 	PORTA		= 0xF80   // PORTA 
+.................... 	#byte 	TRISA		= 0xF92   // PORTA tris 
+.................... 	#byte 	LATA		= 0xF89   // PORTB LAT 
+....................  
+.................... 	#bit a0 = PORTA.0 
+.................... 	#bit a1 = PORTA.1 
+.................... 	#bit a2 = PORTA.2 
+.................... 	#bit a3 = PORTA.3 
+.................... 	#bit a4 = PORTA.4 
+.................... 	#bit a5 = PORTA.5 
+.................... 	#bit a6 = PORTA.6 
+....................  
+.................... 	//PORTB 
+.................... 	#byte 	PORTB		= 0xF81   // PORTB 
+.................... 	#byte 	TRISB		= 0xF93   // PORTB tris 
+.................... 	#byte 	LATB		= 0xF8A   // PORTB LAT 
+....................  
+.................... 	#bit b0 = PORTB.0 
+.................... 	#bit b1 = PORTB.1 
+.................... 	#bit b2 = PORTB.2 
+.................... 	#bit b3 = PORTB.3 
+.................... 	#bit b4 = PORTB.4 
+.................... 	#bit b5 = PORTB.5 
+.................... 	#bit b6 = PORTB.6 
+.................... 	#bit b7 = PORTB.7 
+....................  
+.................... 	//PORTC 
+.................... 	#byte 	PORTC		= 0xF82   // PORTC 
+.................... 	#byte 	TRISC		= 0xF94   // PORTC tris 
+.................... 	#byte 	LATC		= 0xF8B   // PORTB LAT 
+....................  
+.................... 	#bit c0 = PORTC.0			 
+.................... 	#bit c1 = PORTC.1 
+.................... 	#bit c2 = PORTC.2 
+.................... 	#bit c3 = PORTC.3 
+.................... 	#bit c4 = PORTC.4 
+.................... 	#bit c5 = PORTC.5 
+.................... 	#bit c6 = PORTC.6 
+.................... 	#bit c7 = PORTC.7 
+....................  
+.................... //INTERRUPT 
+.................... 	#byte 	PIR1		=	0xF9E 
+.................... 	#byte 	PIR2		=	0xFA1 
+.................... 	#byte 	PIR3		=	0xFA4 
+.................... 	#byte 	PIE1		=	0xF9D 
+.................... 	#byte 	PIE2		=	0xFA0 
+.................... 	#byte 	PIE3		=	0xFA3 
+.................... 	#byte 	IPR1		=	0xF9F 
+.................... 	#byte 	IPR3		=	0xFA5 
+.................... 	#byte 	IPR2		=	0xFA2 
+....................  
+.................... 	#byte 	INTCON		=	0xFF2		//INTERRUPT CONTROL REGISTER 
+.................... 	#byte 	PIE1		=	0xF9D		//PERIPHERAL INTERRUPT ENABLE REGISTER 1 
+.................... 	#byte	PIE2		=	0xFA0		//PERIPHERAL INTERRUPT ENABLE REGISTER 2 
+.................... 	#byte	PIE3		=	0xFA3		//PERIPHERAL INTERRUPT ENABLE REGISTER 3 
+.................... 	#bit	GIE			=	INTCON.7	//Global Interrupt Enable bit 
+....................  
+.................... //TIMER  
+.................... 	#byte	T1CON		=	0xFCD		//TIMER1 CONTROL REGISTER 
+.................... 	#bit	TMR1IE		=	PIE1.0		//TMR1 Overflow Interrupt Enable bit 
+.................... 	#byte 	T1GCON		=	0xF9A		//TIMER1 GATE CONTROL REGISTER 
+.................... 	#byte 	TMR1L		=	0xFCE 
+.................... 	#byte 	TMR1H		=	0xFCF 
+.................... 	#byte 	T0CON		=	0xFD5		//TIMER0 CONTROL REGISTER 
+.................... 	#bit	TMR0IE	 	=	INTCON.5	//TMR0 Overflow Interrupt Enable bit 
+....................  
+.................... //CCP 
+.................... 	#byte 	CCP1CON		=	0xFBA		//ENHANCED CAPTURE/COMPARE/PWM x CONTROL REGISTER 
+.................... 	#byte 	CCP2CON		=	0xFB4		//ENHANCED CAPTURE/COMPARE/PWM x CONTROL REGISTER 
+.................... 	#byte 	CCPR1H		=	0xFBC 
+.................... 	#byte 	CCPR1L		=	0xFBB 
+.................... 	#bit	CCP1IF		=	PIR1.2 
+.................... 	#bit	CCP2IF		=	PIR2.0 
+.................... 	#bit	CCP1IE		=	PIE1.2 
+.................... 	#bit	CCP2IE		=	PIE2.0 
+....................  
+.................... //USART 
+.................... 	#bit	RC1IE		=	PIE1.5		//EUSART1 Receive Interrupt Enable 
+.................... 	#bit	TX1IE		=	PIE1.4		//EUSART1 Transmit Interrupt Enable bit 
+.................... 	#bit	RC2IE		=	PIE3.5		//EUSART2 Receive Interrupt Enable 
+.................... 	#bit	TX2IE		=	PIE3.4		//EUSART2 Transmit Interrupt Enable bit 
+....................  
+.................... 	#byte 	TXSTA1		=	0xFAD 
+.................... 	#byte 	TXSTA2		=	0xFA8 
+.................... 	#byte 	RCSTA1		=	0xFAC 
+.................... 	#byte 	RCSTA2		=	0xF9C 
+.................... 	#byte 	BAUDCON1	=	0xF7E 
+.................... 	#bit	BRGH1		=	BAUDCON1.3 
+.................... 	#byte 	BAUDCON2	=	0xF7C 
+.................... 	#bit	BRGH2		=	BAUDCON2.3 
+.................... 	#byte 	SPBRGH1		=	0xF7F 
+.................... 	#byte 	SPBRGH2		=	0xF7D 
+.................... 	#byte 	SPBRG1		=	0xFB0 
+.................... 	#byte 	SPBRG2		=	0xFAB 
+.................... 	#byte 	TXREG1		=	0xFAE 
+.................... 	#byte 	TXREG2		=	0xFA9 
+.................... 	#byte 	RCREG1		=	0xFAF 
+.................... 	#byte 	RCREG2		=	0xFAA 
+....................  
+.................... 	#byte 	ODCON1		=	0xF42 
+.................... 	#byte 	ODCON2		=	0xF41 
+.................... 	#byte 	ODCON3		=	0xF40 
+.................... //RTC 
+.................... //	#bit	RTCCIE	=	INTCON.5	//RTCC Interrupt Enable 
+....................  
+.................... //PPS 
+.................... 	#byte 	PPSCON		=	0xEFF		//PERIPHERAL PIN SELECT INPUT REGISTER 0 
+.................... 	#bit	IOLOCK		=	PPSCON.0	//I/O Lock Enable bit 
+.................... 	#byte 	RPINR7		=	0xEED		//Assign Input Capture 1 (ECCP1) to the Corresponding RPn Pin bits 
+.................... 	#byte 	RPINR16		=	0xEF6		//Peripheral Pin Select Input Register 16 
+.................... 	#byte 	EECON2		=	0xFA7		//Program Memory Control Register 2 
+.................... 	#byte 	RPOR7		=	0xECD		//PERIPHERAL PIN SELECT OUTPUT REGISTER 7 
+....................  
+....................  
+.................... //OSCTUNE 
+.................... 	#byte 	OSCTUNEF	=	0xF9B		//OSCILLATOR TUNING REGISTER 
+.................... 	#bit	PLLEN		=	OSCTUNEF.6 
+....................  
+....................  
+.................... //MSSP 
+.................... 	#byte 	SSP1STAT	=	0xFC7 
+.................... 	#byte 	SSP2STAT	=	0xF73 
+.................... 	#bit	BF1			=	SSP1STAT.0 
+.................... 	#bit	BF2			=	SSP2STAT.0 
+....................  
+.................... 	#byte 	SSP1CON1	=	0xFC6 
+.................... 	#byte 	SSP2CON1	=	0xF72 
+.................... 	#bit	CKP1			=	SSP1CON1.4 
+.................... 	#bit	CKP2			=	SSP2CON1.4 
+....................  
+.................... 	#byte 	SSP1BUF		=	0xFC9 
+.................... 	#byte 	SSP2BUF		=	0xF75 
+....................  
+....................  
+....................  
+.................... #device adc=16 
+.................... //#device ICD = TRUE 
+.................... #fuses NOWDT            //No Watch Dog Timer 
+.................... #FUSES WDT128                   //Watch Dog Timer uses 1:128 Postscale 
+.................... #FUSES NOXINST                  //Extended set extension and Indexed Addressing mode disabled (Legacy mode) 
+.................... #FUSES NOIOL1WAY             	//Allows multiple reconfigurations of peripheral pins 
+.................... //#FUSES PROTECT                  //Code protected from reads 
+.................... //#FUSES HS                       //High speed Osc (> 4mhz for PCM/PCH) (>10mhz for PCD) 
+....................  
+.................... #fuses NOFCMEN          //Fail-safe clock monitor disabled 
+.................... #fuses NOIESO           //Internal External Switch Over mode disabled 
+....................  
+.................... //48MHz 
+.................... #fuses INTRC_PLL_IO 
+....................  
+.................... #fuses PLL2             //Divide By 2(8MHz oscillator input) 
+.................... #fuses NOCPUDIV         //System Clock by 1 
+....................  
+.................... #use delay(clock=48MHZ,RESTART_WDT) 
+*
+0260:  CLRF   FEA
+0262:  MOVLW  18
+0264:  MOVWF  FE9
+0266:  MOVF   FEF,W
+0268:  BZ    028A
+026A:  MOVLW  0F
+026C:  MOVWF  01
+026E:  MOVLW  BF
+0270:  MOVWF  00
+0272:  CLRWDT
+0274:  DECFSZ 00,F
+0276:  BRA    0272
+0278:  DECFSZ 01,F
+027A:  BRA    026E
+027C:  MOVLW  8F
+027E:  MOVWF  00
+0280:  DECFSZ 00,F
+0282:  BRA    0280
+0284:  CLRWDT
+0286:  DECFSZ FEF,F
+0288:  BRA    026A
+028A:  RETURN 0
+....................  
+.................... ////8MHz 
+.................... //#fuses INTRC 
+.................... // 
+.................... //#fuses PLL2             //Divide By 2(8MHz oscillator input) 
+.................... //#fuses NOCPUDIV         //System Clock by 1 
+.................... // 
+.................... //#use delay(clock=8MHZ,RESTART_WDT) 
+....................  
+.................... //#PIN_SELECT CCP1 = PIN_C0 
+.................... //#pin_select TX2 = PIN_B4 
+.................... //#pin_select RX2 = PIN_B5 
+....................  
+.................... #use rs232(UART1,baud=115200,xmit=PIN_C6,rcv=PIN_C7,bits=8,parity=N,STOP=1) 
+.................... //#use rs232(UART2,baud=9600,parity=E,xmit=PIN_B4,rcv=PIN_B5,bits=8,stream=PORT2,STOP=1) 
+....................  
+.................... #use i2c(master, sda=PIN_B5, scl=PIN_B4, slow, FORCE_HW, fast=400000) 
+*
+02AE:  BCF    FC6.7
+02B0:  BCF    F9E.3
+02B2:  MOVFF  27,FC9
+02B6:  MOVLW  02
+02B8:  BTFSC  FC6.7
+02BA:  BRA    02C6
+02BC:  BTFSS  F9E.3
+02BE:  BRA    02BC
+02C0:  MOVLW  00
+02C2:  BTFSC  FC5.6
+02C4:  MOVLW  01
+02C6:  MOVWF  01
+02C8:  RETURN 0
+*
+0406:  BCF    FC6.6
+0408:  BSF    FC5.3
+040A:  BTFSC  FC5.3
+040C:  BRA    040A
+040E:  BTFSC  00.0
+0410:  BCF    FC5.5
+0412:  BTFSS  00.0
+0414:  BSF    FC5.5
+0416:  BSF    FC5.4
+0418:  BTFSC  FC5.4
+041A:  BRA    0418
+041C:  MOVFF  FC9,01
+0420:  RETURN 0
+....................  
+....................  
+....................  
+....................  
+.................... //#include "ds1307_25J50.c" 
+....................  
+.................... #include "SSD1306.c" 
+....................  
+.................... #include "SSD1306.h" 
+.................... // #if ARDUINO >= 100 
+....................  // #include "Arduino.h" 
+.................... // #else 
+....................  // #include "WProgram.h" 
+.................... // #endif 
+....................  
+.................... #define swap(a, b) { uint8_t t = a; a = b; b = t; } 
+.................... #ifndef SSD1306_DriverH 
+.................... #define SSD1306_DriverH 
+....................  
+.................... #define BLACK 0 
+.................... #define WHITE 1 
+....................  
+.................... /*========================================================================= 
+....................     SSD1306 Displays 
+....................     ----------------------------------------------------------------------- 
+....................     The driver is used in multiple displays (128x64, 128x32, etc.). 
+....................     Select the appropriate display below to create an appropriately 
+....................     sized framebuffer, etc. 
+....................  
+....................     SSD1306_128_64  128x64 pixel display 
+....................  
+....................     SSD1306_128_32  128x32 pixel display 
+....................  
+....................     You also need to set the LCDWIDTH and LCDHEIGHT defines to an  
+....................     appropriate size 
+....................  
+....................     -----------------------------------------------------------------------*/ 
+.................... #define SSD1306_128_64 
+.................... //     #define SSD1306_128_32 
+.................... /*=========================================================================*/ 
+....................  
+.................... #if defined SSD1306_128_64 && defined SSD1306_128_32 
+....................   #error "Only one SSD1306 display can be specified at once in SSD1306.h" 
+.................... #endif 
+.................... #if !defined SSD1306_128_64 && !defined SSD1306_128_32 
+....................   #error "At least one SSD1306 display must be specified in SSD1306.h" 
+.................... #endif 
+....................  
+.................... #if defined SSD1306_128_64 
+....................   #define SSD1306_LCDWIDTH              128 
+....................   #define SSD1306_LCDHEIGHT             64 
+.................... #endif 
+....................  
+.................... #if defined SSD1306_128_32 
+....................   #define SSD1306_LCDWIDTH              128 
+....................   #define SSD1306_LCDHEIGHT             32 
+.................... #endif 
+....................  
+.................... #define PAGE_MODE                       01 
+.................... #define HORIZONTAL_MODE                 02 
+....................  
+.................... #define SSD1306_Addres_Write            0x78 
+.................... #define SSD1306_Addres_Read             0b01111001 
+....................  
+.................... #define SSD1306_Command_Mode            0x80 
+.................... #define SSD1306_Data_Mode               0x40 
+....................  
+.................... #define SSD1306_SET_CONTRAST 		0x81 
+.................... #define SSD1306_DISPLAY_ALL_ON_RESUME   0xA4 
+.................... #define SSD1306_DISPLAY_ALL_ON 		0xA5 
+.................... #define SSD1306_DISPLAY_NORMAL 		0xA6 
+.................... #define SSD1306_DISPLAY_INVERT		0xA7 
+.................... #define SSD1306_DISPLAY_OFF 		0xAE 
+.................... #define SSD1306_DISPLAY_ON 		0xAF 
+....................  
+.................... #define SSD1306_SET_DISPLAY_OFFSET 	0xD3 
+.................... #define SSD1306_SET_COMPINS 		0xDA 
+....................  
+.................... #define SSD1306_SET_VCOM_DETECT		0xDB 
+....................  
+.................... #define SSD1306_SET_DISPLAY_CLOCK_DIV 	0xD5 
+.................... #define SSD1306_SET_PRECHARGE 		0xD9 
+....................  
+.................... #define SSD1306_SET_MULTIPLEX 		0xA8 
+....................  
+.................... #define SSD1306_SET_LOW_COLUM_N 	0x00 
+.................... #define SSD1306_SET_HIGH_COLUM_N 	0x10 
+....................  
+.................... #define SSD1306_SET_START_LINE 		0x40 
+....................  
+.................... #define SSD1306_MEMORY_MODE 		0x20 
+....................  
+.................... #define SSD1306_COM_SCAN_INC 		0xC0 
+.................... #define SSD1306_COM_SCAN_DEC 		0xC8 
+....................  
+.................... #define SSD1306_SEG_REMAP 		0xA0 
+....................  
+.................... #define SSD1306_CHARGE_PUMP 		0x8D 
+....................  
+.................... #define SSD1306_EXTERNAL_VCC 		0x1 
+.................... #define SSD1306_SWITCH_CAP_VCC 		0x2 
+....................  
+.................... #define SSD1306_Activate_Scroll_Cmd     0x2F 
+.................... #define SSD1306_Dectivate_Scroll_Cmd    0x2E 
+....................  
+.................... #define Scroll_Left                     0x00 
+.................... #define Scroll_Right                    0x01 
+....................  
+.................... #define uint8 unsigned int8 
+.................... #define uint16 unsigned int16 
+....................  
+.................... uint8 addressingMode; 
+....................  
+.................... uint8 SSD1306_Init(void); 
+.................... uint8 SSD1306_Init_X(void); 
+.................... uint8 SSD1306_SurchForAddres(uint8 Command); 
+.................... uint8 SSD1306_SendCommand(uint8 Command); 
+.................... uint8 SSD1306_SendData(uint8 Data); 
+.................... void SSD1306_setBrightness(uint8 Brightness); 
+....................  
+.................... void SSD1306_setHorizontalMode(); 
+.................... void SSD1306_setPageMode(); 
+.................... void SSD1306_setTextXY(uint8 Row, uint8 Column); 
+.................... void SSD1306_clearDisplay(); 
+.................... void SSD1306_putChar(uint8 C); 
+.................... void SSD1306_putString(char *StringP); 
+.................... uint8 SSD1306_putNumber(signed long long_num); 
+.................... void SSD1306_drawBitmap(uint8 *bitmaparray,uint8 bytes); 
+....................  
+.................... void SSD1306_setHorizontalScrollProperties(int1 direction, uint8 startPage, uint8 endPage, uint8 scrollSpeed); 
+....................  
+.................... void SSD1306_activateScroll(); 
+.................... void SSD1306_deactivateScroll(); 
+.................... void SSD1306_setNormalDisplay(); 
+.................... void SSD1306_setInverseDisplay(); 
+.................... #endif 
+....................  
+....................  
+.................... const uint8 BasicFont[][8]= 
+.................... { 
+....................   {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00}, 
+....................   {0x00,0x00,0x5F,0x00,0x00,0x00,0x00,0x00}, 
+....................   {0x00,0x00,0x07,0x00,0x07,0x00,0x00,0x00}, 
+....................   {0x00,0x14,0x7F,0x14,0x7F,0x14,0x00,0x00}, 
+....................   {0x00,0x24,0x2A,0x7F,0x2A,0x12,0x00,0x00}, 
+....................   {0x00,0x23,0x13,0x08,0x64,0x62,0x00,0x00}, 
+....................   {0x00,0x36,0x49,0x55,0x22,0x50,0x00,0x00}, 
+....................   {0x00,0x00,0x05,0x03,0x00,0x00,0x00,0x00}, 
+....................   {0x00,0x1C,0x22,0x41,0x00,0x00,0x00,0x00}, 
+....................   {0x00,0x41,0x22,0x1C,0x00,0x00,0x00,0x00}, 
+....................   {0x00,0x08,0x2A,0x1C,0x2A,0x08,0x00,0x00}, 
+....................   {0x00,0x08,0x08,0x3E,0x08,0x08,0x00,0x00}, 
+....................   {0x00,0xA0,0x60,0x00,0x00,0x00,0x00,0x00}, 
+....................   {0x00,0x08,0x08,0x08,0x08,0x08,0x00,0x00}, 
+....................   {0x00,0x60,0x60,0x00,0x00,0x00,0x00,0x00}, 
+....................   {0x00,0x20,0x10,0x08,0x04,0x02,0x00,0x00}, 
+....................   {0x00,0x3E,0x51,0x49,0x45,0x3E,0x00,0x00}, 
+....................   {0x00,0x00,0x42,0x7F,0x40,0x00,0x00,0x00}, 
+....................   {0x00,0x62,0x51,0x49,0x49,0x46,0x00,0x00}, 
+....................   {0x00,0x22,0x41,0x49,0x49,0x36,0x00,0x00}, 
+....................   {0x00,0x18,0x14,0x12,0x7F,0x10,0x00,0x00}, 
+....................   {0x00,0x27,0x45,0x45,0x45,0x39,0x00,0x00}, 
+....................   {0x00,0x3C,0x4A,0x49,0x49,0x30,0x00,0x00}, 
+....................   {0x00,0x01,0x71,0x09,0x05,0x03,0x00,0x00}, 
+....................   {0x00,0x36,0x49,0x49,0x49,0x36,0x00,0x00}, 
+....................   {0x00,0x06,0x49,0x49,0x29,0x1E,0x00,0x00}, 
+....................   {0x00,0x00,0x36,0x36,0x00,0x00,0x00,0x00}, 
+....................   {0x00,0x00,0xAC,0x6C,0x00,0x00,0x00,0x00}, 
+....................   {0x00,0x08,0x14,0x22,0x41,0x00,0x00,0x00}, 
+....................   {0x00,0x14,0x14,0x14,0x14,0x14,0x00,0x00}, 
+....................   {0x00,0x41,0x22,0x14,0x08,0x00,0x00,0x00}, 
+....................   {0x00,0x02,0x01,0x51,0x09,0x06,0x00,0x00}, 
+....................   {0x00,0x32,0x49,0x79,0x41,0x3E,0x00,0x00}, 
+....................   {0x00,0x7E,0x09,0x09,0x09,0x7E,0x00,0x00}, 
+....................   {0x00,0x7F,0x49,0x49,0x49,0x36,0x00,0x00}, 
+....................   {0x00,0x3E,0x41,0x41,0x41,0x22,0x00,0x00}, 
+....................   {0x00,0x7F,0x41,0x41,0x22,0x1C,0x00,0x00}, 
+....................   {0x00,0x7F,0x49,0x49,0x49,0x41,0x00,0x00}, 
+....................   {0x00,0x7F,0x09,0x09,0x09,0x01,0x00,0x00}, 
+....................   {0x00,0x3E,0x41,0x41,0x51,0x72,0x00,0x00}, 
+....................   {0x00,0x7F,0x08,0x08,0x08,0x7F,0x00,0x00}, 
+....................   {0x00,0x41,0x7F,0x41,0x00,0x00,0x00,0x00}, 
+....................   {0x00,0x20,0x40,0x41,0x3F,0x01,0x00,0x00}, 
+....................   {0x00,0x7F,0x08,0x14,0x22,0x41,0x00,0x00}, 
+....................   {0x00,0x7F,0x40,0x40,0x40,0x40,0x00,0x00}, 
+....................   {0x00,0x7F,0x02,0x0C,0x02,0x7F,0x00,0x00}, 
+....................   {0x00,0x7F,0x04,0x08,0x10,0x7F,0x00,0x00}, 
+....................   {0x00,0x3E,0x41,0x41,0x41,0x3E,0x00,0x00}, 
+....................   {0x00,0x7F,0x09,0x09,0x09,0x06,0x00,0x00}, 
+....................   {0x00,0x3E,0x41,0x51,0x21,0x5E,0x00,0x00}, 
+....................   {0x00,0x7F,0x09,0x19,0x29,0x46,0x00,0x00}, 
+....................   {0x00,0x26,0x49,0x49,0x49,0x32,0x00,0x00}, 
+....................   {0x00,0x01,0x01,0x7F,0x01,0x01,0x00,0x00}, 
+....................   {0x00,0x3F,0x40,0x40,0x40,0x3F,0x00,0x00}, 
+....................   {0x00,0x1F,0x20,0x40,0x20,0x1F,0x00,0x00}, 
+....................   {0x00,0x3F,0x40,0x38,0x40,0x3F,0x00,0x00}, 
+....................   {0x00,0x63,0x14,0x08,0x14,0x63,0x00,0x00}, 
+....................   {0x00,0x03,0x04,0x78,0x04,0x03,0x00,0x00}, 
+....................   {0x00,0x61,0x51,0x49,0x45,0x43,0x00,0x00}, 
+....................   {0x00,0x7F,0x41,0x41,0x00,0x00,0x00,0x00}, 
+....................   {0x00,0x02,0x04,0x08,0x10,0x20,0x00,0x00}, 
+....................   {0x00,0x41,0x41,0x7F,0x00,0x00,0x00,0x00}, 
+....................   {0x00,0x04,0x02,0x01,0x02,0x04,0x00,0x00}, 
+....................   {0x00,0x80,0x80,0x80,0x80,0x80,0x00,0x00}, 
+....................   {0x00,0x01,0x02,0x04,0x00,0x00,0x00,0x00}, 
+....................   {0x00,0x20,0x54,0x54,0x54,0x78,0x00,0x00}, 
+....................   {0x00,0x7F,0x48,0x44,0x44,0x38,0x00,0x00}, 
+....................   {0x00,0x38,0x44,0x44,0x28,0x00,0x00,0x00}, 
+....................   {0x00,0x38,0x44,0x44,0x48,0x7F,0x00,0x00}, 
+....................   {0x00,0x38,0x54,0x54,0x54,0x18,0x00,0x00}, 
+....................   {0x00,0x08,0x7E,0x09,0x02,0x00,0x00,0x00}, 
+....................   {0x00,0x18,0xA4,0xA4,0xA4,0x7C,0x00,0x00}, 
+....................   {0x00,0x7F,0x08,0x04,0x04,0x78,0x00,0x00}, 
+....................   {0x00,0x00,0x7D,0x00,0x00,0x00,0x00,0x00}, 
+....................   {0x00,0x80,0x84,0x7D,0x00,0x00,0x00,0x00}, 
+....................   {0x00,0x7F,0x10,0x28,0x44,0x00,0x00,0x00}, 
+....................   {0x00,0x41,0x7F,0x40,0x00,0x00,0x00,0x00}, 
+....................   {0x00,0x7C,0x04,0x18,0x04,0x78,0x00,0x00}, 
+....................   {0x00,0x7C,0x08,0x04,0x7C,0x00,0x00,0x00}, 
+....................   {0x00,0x38,0x44,0x44,0x38,0x00,0x00,0x00}, 
+....................   {0x00,0xFC,0x24,0x24,0x18,0x00,0x00,0x00}, 
+....................   {0x00,0x18,0x24,0x24,0xFC,0x00,0x00,0x00}, 
+....................   {0x00,0x00,0x7C,0x08,0x04,0x00,0x00,0x00}, 
+....................   {0x00,0x48,0x54,0x54,0x24,0x00,0x00,0x00}, 
+....................   {0x00,0x04,0x7F,0x44,0x00,0x00,0x00,0x00}, 
+....................   {0x00,0x3C,0x40,0x40,0x7C,0x00,0x00,0x00}, 
+....................   {0x00,0x1C,0x20,0x40,0x20,0x1C,0x00,0x00}, 
+....................   {0x00,0x3C,0x40,0x30,0x40,0x3C,0x00,0x00}, 
+....................   {0x00,0x44,0x28,0x10,0x28,0x44,0x00,0x00}, 
+....................   {0x00,0x1C,0xA0,0xA0,0x7C,0x00,0x00,0x00}, 
+....................   {0x00,0x44,0x64,0x54,0x4C,0x44,0x00,0x00}, 
+....................   {0x00,0x08,0x36,0x41,0x00,0x00,0x00,0x00}, 
+....................   {0x00,0x00,0x7F,0x00,0x00,0x00,0x00,0x00}, 
+....................   {0x00,0x41,0x36,0x08,0x00,0x00,0x00,0x00}, 
+....................   {0x00,0x02,0x01,0x01,0x02,0x01,0x00,0x00}, 
+....................   {0x00,0x02,0x05,0x05,0x02,0x00,0x00,0x00} 
+.................... }; 
+....................  
+....................  
+....................  
+.................... uint8 SSD1306_SurchForAddres(uint8 Command) 
+.................... { 
+.................... uint8 ACK1=1, ACK2=0, ACK3=0,count = 0; 
+....................  
+....................     for(count=0; (count <=255 && ACK1 == 1); ) 
+....................     { 
+....................         count++; 
+....................         i2c_start(); 
+....................  
+....................         ACK1 = i2c_write(0 | (count << 2)); 
+....................         delay_ms(50); 
+....................         i2c_stop(); 
+....................         printf("\n\rcount = %x",(0 | (count << 2))); 
+....................  
+....................     } 
+....................     printf("\n\rADDRES = %x",(0 | (count << 2))); 
+....................     return (ACK1 | ACK2 | ACK3); 
+.................... } 
+....................  
+.................... //////////////////////////////////////////////////////////////////////////////// 
+.................... uint8 SSD1306_Init_X(void) 
+.................... { 
+....................     uint8 Err=0; 
+....................     printf("\n\rInit\n\r1:%x",Err); 
+....................     // Init sequence for 128x64 OLED module 
+....................     Err=SSD1306_SendCommand(SSD1306_DISPLAY_OFF);                    // 0xAE 
+....................     printf("\n\r SSD1306_DISPLAY_OFF  :%x",Err); 
+....................      
+....................     Err=SSD1306_SendCommand(SSD1306_SET_DISPLAY_CLOCK_DIV);            // 0xD5 
+....................     SSD1306_SendCommand(0x80);                 // the suggested ratio 0x80 
+....................     printf("\n\r SSD1306_SET_DISPLAY_CLOCK_DIV  :%x",Err); 
+....................  
+....................     Err=SSD1306_SendCommand(SSD1306_SET_MULTIPLEX);                  // 0xA8 
+....................     SSD1306_SendCommand(0x3F); 
+....................     printf("\n\r SSD1306_SET_MULTIPLEX  :%x",Err); 
+....................  
+....................     Err=SSD1306_SendCommand(SSD1306_SET_DISPLAY_OFFSET);              // 0xD3 
+....................     SSD1306_SendCommand(0x0);                                   // no offset 
+....................     printf("\n\r SSD1306_SET_DISPLAY_OFFSET  :%x",Err); 
+....................  
+....................     Err=SSD1306_SendCommand(SSD1306_SET_START_LINE);// | 0x0);        // line #0 
+....................     printf("\n\r SSD1306_SET_START_LINE  :%x",Err); 
+....................  
+....................     Err=SSD1306_SendCommand(SSD1306_CHARGE_PUMP);                    // 0x8D 
+....................     SSD1306_SendCommand(0x14);  // using internal VCC 
+....................     printf("\n\r SSD1306_CHARGE_PUMP  :%x",Err); 
+....................  
+....................     Err=SSD1306_SendCommand(SSD1306_MEMORY_MODE);                    // 0x20 
+....................     SSD1306_SendCommand(0x00);          // 0x00 horizontal addressing 
+....................     printf("\n\r SSD1306_MEMORY_MODE  :%x",Err); 
+....................  
+....................     Err=SSD1306_SendCommand(SSD1306_SEG_REMAP | 0x1); // rotate screen 180 
+....................     printf("\n\r SSD1306_SEG_REMAP  :%x",Err); 
+....................  
+....................     Err=SSD1306_SendCommand(SSD1306_COM_SCAN_DEC); // rotate screen 180 
+....................     printf("\n\r SSD1306_COM_SCAN_DEC  :%x",Err); 
+....................  
+....................     Err=SSD1306_SendCommand(SSD1306_SET_COMPINS);                    // 0xDA 
+....................     SSD1306_SendCommand(0x12); 
+....................     printf("\n\r SSD1306_SET_COMPINS  :%x",Err); 
+....................  
+....................     Err=SSD1306_SendCommand(SSD1306_SET_CONTRAST);                   // 0x81 
+....................     SSD1306_SendCommand(0xCF); 
+....................     printf("\n\r SSD1306_SET_CONTRAST  :%x",Err); 
+....................  
+....................     Err=SSD1306_SendCommand(SSD1306_SET_PRECHARGE);                  // 0xd9 
+....................     SSD1306_SendCommand(0xF1); 
+....................     printf("\n\r SSD1306_SET_PRECHARGE  :%x",Err); 
+....................  
+....................     Err=SSD1306_SendCommand(SSD1306_SET_VCOM_DETECT);                 // 0xDB 
+....................     SSD1306_SendCommand(0x40); 
+....................     printf("\n\r SSD1306_SET_VCOM_DETECT  :%x",Err); 
+....................  
+....................     Err=SSD1306_SendCommand(SSD1306_DISPLAY_ALL_ON_RESUME);           // 0xA4 
+....................     printf("\n\r SSD1306_DISPLAY_ALL_ON_RESUME  :%x",Err); 
+....................  
+....................     Err=SSD1306_SendCommand(SSD1306_DISPLAY_NORMAL);                 // 0xA6 
+....................     printf("\n\r SSD1306_DISPLAY_NORMAL  :%x",Err); 
+....................  
+....................     Err=SSD1306_SendCommand(SSD1306_DISPLAY_ON);                     //switch on OLED 
+....................     printf("\n\r SSD1306_DISPLAY_ON  :%x",Err); 
+....................  
+....................     return 1; 
+.................... } 
+.................... //////////////////////////////////////////////////////////////////////////////// 
+.................... uint8 SSD1306_Init(void) 
+.................... { 
+....................     uint8 Err=0; 
+....................     Err=SSD1306_SendCommand(SSD1306_DISPLAY_OFF);     //display off 
+....................     printf("\n\rInit\n\r1:%x",Err); 
+....................     delay_ms(5); 
+....................     Err=SSD1306_SendCommand(SSD1306_DISPLAY_ON);      //display on 
+....................     printf("\n\r2:%x",Err); 
+....................     delay_ms(5); 
+....................     Err=SSD1306_SendCommand(SSD1306_DISPLAY_NORMAL);  //Set Normal Display (default) 
+....................     printf("\n\r3:%x",Err); 
+....................  
+....................     return 1; 
+.................... } 
+.................... //////////////////////////////////////////////////////////////////////////////// 
+.................... uint8 SSD1306_SendCommand(uint8 Command) 
+.................... { 
+.................... uint8 ACK1=0, ACK2=0, ACK3=0; 
+....................  
+....................     i2c_start(); 
+....................     ACK1 = i2c_write( 0x78); 
+....................  
+....................     ACK2 = i2c_write(SSD1306_Command_Mode); 
+....................     ACK2 <<= 1; 
+....................  
+....................     ACK3 = i2c_write(Command);  // Data to device 
+....................     ACK3 <<= 2; 
+....................  
+....................     i2c_stop();         // Restart 
+....................  
+....................     return (ACK1 | ACK2 | ACK3); 
+.................... } 
+....................  
+.................... //////////////////////////////////////////////////////////////////////////////// 
+.................... uint8 SSD1306_SendData(uint8 Data) 
+.................... { 
+....................     uint8 ACK1=0, ACK2=0, ACK3=0; 
+....................  
+....................     i2c_start(); 
+....................     i2c_write(SSD1306_Addres_Write);        // Device address 
+....................     i2c_write(SSD1306_Data_Mode); 
+....................     i2c_write(Data);                        // Data to device 
+....................     i2c_start();                            // Restart 
+....................      
+....................     return (ACK1 || ACK2 || ACK3); 
+.................... } 
+....................  
+.................... //////////////////////////////////////////////////////////////////////////////// 
+.................... void SSD1306_setBrightness(uint8 Brightness) 
+.................... { 
+....................     SSD1306_SendCommand(SSD1306_SET_CONTRAST); 
+....................     SSD1306_SendCommand(Brightness); 
+.................... } 
+....................  
+.................... //////////////////////////////////////////////////////////////////////////////// 
+.................... void SSD1306_setHorizontalMode() 
+.................... { 
+....................     addressingMode = HORIZONTAL_MODE; 
+....................     SSD1306_SendCommand(0x20);          //set addressing mode 
+....................     SSD1306_SendCommand(0x00);          //set horizontal addressing mode 
+.................... } 
+....................  
+.................... //////////////////////////////////////////////////////////////////////////////// 
+.................... void SSD1306_setPageMode() 
+.................... { 
+....................     addressingMode = PAGE_MODE; 
+....................     SSD1306_SendCommand(0x20);          //set addressing mode 
+....................     SSD1306_SendCommand(0x02);          //set page addressing mode 
+.................... } 
+....................  
+.................... //////////////////////////////////////////////////////////////////////////////// 
+.................... void SSD1306_setTextXY(uint8 Row, uint8 Column) 
+.................... { 
+....................     SSD1306_SendCommand(0xB0 + Row);            //set page address 
+....................     SSD1306_SendCommand(0x00 + (8*Column & 0x0F));  //set column lower address 
+....................     SSD1306_SendCommand(0x10 + ((8*Column>>4)&0x0F));   //set column higher address 
+.................... } 
+.................... //////////////////////////////////////////////////////////////////////////////// 
+.................... void SSD1306_clearDisplay() 
+.................... { 
+....................   uint8 i,j; 
+....................   SSD1306_sendCommand(SSD1306_DISPLAY_OFF);   //display off 
+....................   for(j=0;j<8;j++) 
+....................   { 
+....................     SSD1306_setTextXY(j,0); 
+....................     { 
+....................       for(i=0;i<16;i++)  //clear all columns 
+....................       { 
+....................  
+....................         SSD1306_putChar(' '); 
+....................       } 
+....................     } 
+....................   } 
+....................   SSD1306_sendCommand(SSD1306_DISPLAY_ON);    //display on 
+....................   SSD1306_setTextXY(0,0); 
+.................... } 
+.................... //////////////////////////////////////////////////////////////////////////////// 
+.................... void SSD1306_putChar(uint8 C) 
+.................... { 
+....................     uint8 i=0; 
+....................  
+....................     //Ignore non-printable ASCII characters. 
+....................     //This can be modified for multilingual font. 
+....................     if(C < 32 || C > 127)  
+....................     { 
+....................         C=' '; //Space 
+....................     }    
+....................     for(i=0;i<8;i++) 
+....................     { 
+....................        //read bytes from code memory 
+....................        SSD1306_sendData(BasicFont[C-32][i]);  
+....................        //font array starts at 0, ASCII starts at 32. Hence the translation 
+....................     } 
+.................... } 
+.................... //////////////////////////////////////////////////////////////////////////////// 
+.................... void SSD1306_putString(char *StringP) 
+.................... { 
+....................     char *StringL = 0; 
+....................     uint8 i=0; 
+....................     StringL = StringP; 
+....................  
+....................     while(StringL[i]) 
+....................     { 
+....................         SSD1306_putChar(StringL[i]); 
+....................         i++; 
+....................     } 
+.................... } 
+.................... //////////////////////////////////////////////////////////////////////////////// 
+.................... uint8 SSD1306_putNumber(signed long long_num) 
+.................... { 
+....................   unsigned char char_buffer[10]=""; 
+....................   unsigned char i = 0; 
+....................   unsigned char f = 0; 
+....................  
+....................  
+....................   if (long_num < 0) 
+....................   { 
+....................     f=1; 
+....................     SSD1306_putChar('-'); 
+....................     long_num = -long_num; 
+....................   } 
+....................   else if (long_num == 0) 
+....................   { 
+....................     f=1; 
+....................     putChar('0'); 
+....................     return f; 
+....................   } 
+....................  
+....................   while (long_num > 0) 
+....................   { 
+....................     char_buffer[i++] = long_num % 10; 
+....................     long_num /= 10; 
+....................   } 
+....................  
+....................   f=f+i; 
+....................   for(; i > 0; i--) 
+....................   { 
+....................     SSD1306_putChar('0'+ char_buffer[i - 1]); 
+....................   } 
+....................   return f; 
+....................  
+.................... } 
+.................... //////////////////////////////////////////////////////////////////////////////// 
+.................... void SSD1306_drawBitmap(uint8 *bitmaparray, uint8 bytes) 
+.................... { 
+....................   char localAddressMode = addressingMode; 
+....................   if(addressingMode != HORIZONTAL_MODE) 
+....................   { 
+....................       //Bitmap is drawn in horizontal mode 
+....................       SSD1306_setHorizontalMode(); 
+....................   } 
+....................  
+....................   for(int i=0;i<bytes;i++) 
+....................   { 
+....................       SSD1306_sendData(bitmaparray[i]); 
+....................   } 
+....................  
+....................   if(localAddressMode == PAGE_MODE) 
+....................   { 
+....................      //If pageMode was used earlier, restore it. 
+....................      SSD1306_setPageMode(); 
+....................   } 
+....................  
+.................... } 
+.................... //////////////////////////////////////////////////////////////////////////////// 
+.................... void SSD1306_setHorizontalScrollProperties(int1 direction, uint8 startPage, uint8 endPage, uint8 scrollSpeed) 
+.................... { 
+.................... /* 
+.................... Use the following defines for 'direction' : 
+....................  Scroll_Left 
+....................  Scroll_Right 
+.................... Use the following defines for 'scrollSpeed' : 
+....................  Scroll_2Frames 
+....................  Scroll_3Frames 
+....................  Scroll_4Frames 
+....................  Scroll_5Frames 
+....................  Scroll_25Frames 
+....................  Scroll_64Frames 
+....................  Scroll_128Frames 
+....................  Scroll_256Frames 
+.................... */ 
+....................  
+....................    if(Scroll_Right == direction) 
+....................    { 
+....................         //Scroll Right 
+....................         SSD1306_sendCommand(0x26); 
+....................    } 
+....................    else 
+....................    { 
+....................         //Scroll Left 
+....................         SSD1306_sendCommand(0x27); 
+....................  
+....................    } 
+....................     SSD1306_sendCommand(0x00); 
+....................     SSD1306_sendCommand(startPage); 
+....................     SSD1306_sendCommand(scrollSpeed); 
+....................     SSD1306_sendCommand(endPage); 
+....................     SSD1306_sendCommand(0x00); 
+....................     SSD1306_sendCommand(0xFF); 
+.................... } 
+....................  
+.................... void SSD1306_activateScroll() 
+.................... { 
+....................     SSD1306_sendCommand(SSD1306_Activate_Scroll_Cmd); 
+.................... } 
+....................  
+.................... void SSD1306_deactivateScroll() 
+.................... { 
+....................     SSD1306_sendCommand(SSD1306_Dectivate_Scroll_Cmd); 
+.................... } 
+....................  
+.................... void SSD1306_setNormalDisplay() 
+.................... { 
+....................     uint8 Err=0; 
+....................     Err=SSD1306_sendCommand(SSD1306_DISPLAY_NORMAL); 
+.................... //    printf("\n\rsetNormalDisplay\n\r1:%x",Err); 
+.................... } 
+....................  
+.................... void SSD1306_setInverseDisplay() 
+.................... { 
+....................     SSD1306_sendCommand(SSD1306_DISPLAY_INVERT); 
+.................... } 
+....................  
+.................... //#include "Bitmap_logo.c" 
+.................... #include "DS3231.c" 
+.................... #include "DS3231.h" 
+....................  
+.................... #define     DS3231_WriteX    0xD0 
+.................... #define     DS3231_ReadX     0xD1 
+....................  
+.................... #define Sec             0 
+.................... #define TenSec          1 
+.................... #define Min             2 
+.................... #define TenMin          3 
+.................... #define Hour            4 
+.................... #define TenHour         5 
+....................  
+.................... #define Day             0 
+.................... #define Date            1 
+.................... #define TenDate         2 
+.................... #define Month           3 
+.................... #define TenMonth        4 
+.................... #define Year            5 
+.................... #define TenYear         6 
+....................  
+.................... #define Sec_Mask             0b00001111 
+.................... #define TenSec_Mask          0b01110000 
+.................... #define Min_Mask             0b00001111 
+.................... #define TenMin_Mask          0b01110000 
+.................... #define Hour_Mask            0b00001111 
+.................... #define TenHour_Mask         0b00110000 
+....................  
+.................... #define Day_Mask             0b00000111 
+.................... #define Date_Mask            0b00001111 
+.................... #define TenDate_Mask         0b00110000 
+.................... #define Month_Mask           0b00001111 
+.................... #define TenMonth_Mask        0b00010000 
+.................... #define Year_Mask            0b00001111 
+.................... #define TenYear_Mask         0b11110000 
+....................  
+.................... #define Monday      1 
+.................... #define Tuesday     2 
+.................... #define Wednesday   3 
+.................... #define Thursday    4 
+.................... #define Friday      5 
+.................... #define Saturday    6 
+.................... #define Sunday      7 
+....................  
+....................  
+.................... void DS3231_Write(uint8 u8AddresP, uint8 *pDataP, uint8 u8NumberOfBytesP); 
+.................... void DS3231_Read(uint8 u8AddresP, uint8 *pDataP, uint8 u8NumberOfBytesP); 
+....................  
+.................... uint8 DS3231_Reade_Pointer(uint8 u8AddresP, uint8 *pDataP, uint8 u8NumberOfBytesP); 
+....................  
+.................... void DS3231_Init_Clock(uint8 u8FlagInitP,uint8 *pDataP); 
+.................... void DS3231_Init_Data(uint8 u8FlagInitP,uint8 *pDataP); 
+.................... void DS3231_Read_Clock(uint8 *pDataP); 
+....................  
+.................... void DS3231_Read_Data(uint8 *pDataP); 
+.................... void DS3231_Print_Data(uint8 *pDataP); 
+....................  
+....................          
+....................  
+....................  
+....................  
+....................  
+....................  
+.................... //////////////////////////////////////////////////////////////////////////////// 
+.................... void DS3231_Write(uint8 u8AddresP, uint8 *pDataP, uint8 u8NumberOfBytesP) 
+*
+02CA:  MOVLW  01
+02CC:  MOVWF  24
+.................... { 
+....................     uint8 u8ByteCountL=1; 
+....................     i2c_start(); 
+02CE:  BSF    FC5.1
+02D0:  BTFSC  FC5.1
+02D2:  BRA    02D0
+....................     i2c_write( DS3231_WriteX ); 
+02D4:  MOVLW  D0
+02D6:  MOVWF  27
+02D8:  RCALL  02AE
+....................  
+....................     i2c_write(u8AddresP); 
+02DA:  MOVFF  20,27
+02DE:  RCALL  02AE
+....................  
+....................     for( u8ByteCountL=1; u8ByteCountL <= u8NumberOfBytesP; u8ByteCountL++ ) 
+02E0:  MOVLW  01
+02E2:  MOVWF  24
+02E4:  MOVF   24,W
+02E6:  SUBWF  23,W
+02E8:  BNC   0306
+....................     { 
+....................         i2c_write(pDataP[u8ByteCountL-1]); 
+02EA:  MOVLW  01
+02EC:  SUBWF  24,W
+02EE:  ADDWF  21,W
+02F0:  MOVWF  FE9
+02F2:  MOVLW  00
+02F4:  ADDWFC 22,W
+02F6:  MOVWF  FEA
+02F8:  MOVFF  FEF,25
+02FC:  MOVFF  25,27
+0300:  RCALL  02AE
+0302:  INCF   24,F
+0304:  BRA    02E4
+....................     } 
+....................  
+....................     i2c_stop();         // Restart 
+0306:  BSF    FC5.2
+0308:  BTFSC  FC5.2
+030A:  BRA    0308
+030C:  RETURN 0
+.................... } 
+....................  
+.................... //////////////////////////////////////////////////////////////////////////////// 
+.................... void DS3231_Read(uint8 u8AddresP, uint8 *pDataP, uint8 u8NumberOfBytesP) 
+.................... { 
+....................     uint8 u8ByteCountL=1; 
+....................  
+....................     i2c_start(); 
+.................... //    printf("\n\rStart1"); 
+....................     i2c_write( DS3231_ReadX ); 
+.................... //    printf("\n\rWrite2"); 
+....................     i2c_write( u8AddresP ); 
+.................... //    printf("\n\rAfter Addres3"); 
+....................      
+.................... //    for( u8ByteCountL=1; u8ByteCountL < (u8NumberOfBytesP); u8ByteCountL++ ) 
+.................... //    { 
+.................... //        pDataP[u8ByteCountL] = i2c_read(TRUE);  // Data to device 
+.................... //        printf("\n\ru8ByteCountL=%d\n\r",u8ByteCountL); 
+.................... //    } 
+.................... //    pDataP[u8NumberOfBytesP] = i2c_read(FALSE); 
+....................     pDataP = i2c_read(FALSE); 
+.................... //    printf("\n\rlast write"); 
+....................     i2c_stop();         // Restart 
+.................... //    printf("\n\rStop\n\r"); 
+.................... } 
+....................  
+.................... //////////////////////////////////////////////////////////////////////////////// 
+.................... uint8 DS3231_Reade_Pointer(uint8 u8AddresP, uint8 *pDataP, uint8 u8NumberOfBytesP) 
+*
+0422:  MOVLW  01
+0424:  MOVWF  23
+.................... { 
+....................     uint8 u8ByteCountL=1; 
+....................     uint8 pAckL[3]; 
+....................  
+....................     i2c_start(); 
+0426:  BSF    FC5.0
+0428:  BTFSC  FC5.0
+042A:  BRA    0428
+....................     pAckL[0] = i2c_write( DS3231_WriteX ); 
+042C:  MOVLW  D0
+042E:  MOVWF  27
+0430:  RCALL  02AE
+0432:  MOVFF  01,24
+....................     pAckL[1] = i2c_write( u8AddresP ); 
+0436:  MOVFF  1F,27
+043A:  RCALL  02AE
+043C:  MOVFF  01,25
+....................     pAckL[1] <<= 1; 
+0440:  BCF    FD8.0
+0442:  RLCF   25,F
+....................     i2c_start(); 
+0444:  BSF    FC5.1
+0446:  BTFSC  FC5.1
+0448:  BRA    0446
+....................     pAckL[2] = i2c_write(DS3231_ReadX); 
+044A:  MOVLW  D1
+044C:  MOVWF  27
+044E:  RCALL  02AE
+0450:  MOVFF  01,26
+....................     pAckL[2] <<= 2; 
+0454:  RLCF   26,F
+0456:  RLCF   26,F
+0458:  MOVLW  FC
+045A:  ANDWF  26,F
+....................  
+....................     for( u8ByteCountL=1; u8ByteCountL < u8NumberOfBytesP; u8ByteCountL++ ) 
+045C:  MOVLW  01
+045E:  MOVWF  23
+0460:  MOVF   22,W
+0462:  SUBWF  23,W
+0464:  BC    0482
+....................     { 
+....................         pDataP[u8ByteCountL-1] = i2c_read(TRUE);  // Data to device 
+0466:  MOVLW  01
+0468:  SUBWF  23,W
+046A:  ADDWF  20,W
+046C:  MOVWF  FE9
+046E:  MOVLW  00
+0470:  ADDWFC 21,W
+0472:  MOVWF  FEA
+0474:  MOVLW  01
+0476:  MOVWF  00
+0478:  RCALL  0406
+047A:  MOVFF  01,FEF
+047E:  INCF   23,F
+0480:  BRA    0460
+....................     } 
+....................  
+....................     pDataP[u8NumberOfBytesP-1] = i2c_read(FALSE); 
+0482:  MOVLW  01
+0484:  SUBWF  22,W
+0486:  ADDWF  20,W
+0488:  MOVWF  FE9
+048A:  MOVLW  00
+048C:  ADDWFC 21,W
+048E:  MOVWF  FEA
+0490:  CLRF   00
+0492:  RCALL  0406
+0494:  MOVFF  01,FEF
+....................     i2c_stop();         // Restart 
+0498:  BSF    FC5.2
+049A:  BTFSC  FC5.2
+049C:  BRA    049A
+....................  
+....................     return ( pAckL[0] | pAckL[1] | pAckL[2] ); 
+049E:  MOVF   24,W
+04A0:  IORWF  25,W
+04A2:  IORWF  26,W
+04A4:  MOVWF  01
+04A6:  RETURN 0
+.................... } 
+.................... //////////////////////////////////////////////////////////////////////////////// 
+.................... void DS3231_Init_Clock(uint8 u8FlagInitP,uint8 *pDataP) 
+*
+030E:  MOVLW  05
+0310:  MOVWF  1A
+0312:  MOVWF  1B
+0314:  MOVLW  04
+0316:  MOVWF  1C
+0318:  MOVLW  09
+031A:  MOVWF  1D
+031C:  CLRF   1E
+031E:  MOVLW  07
+0320:  MOVWF  1F
+.................... { 
+....................     uint8 u8TenSecL=5; 
+....................     uint8 u8SecL=5; 
+....................     uint8 u8TenMinL=4; 
+....................     uint8 u8MinL=9; 
+....................     uint8 u8TenHourL=0; 
+....................     uint8 u8HourL=7; 
+....................  
+....................     if(u8FlagInitP) 
+0322:  MOVF   17,F
+0324:  BZ    0380
+....................     { 
+....................         u8SecL&=Sec_Mask; 
+0326:  MOVLW  0F
+0328:  ANDWF  1B,F
+....................         u8MinL&=Min_Mask; 
+032A:  ANDWF  1D,F
+....................         u8HourL&=Hour_Mask; 
+032C:  ANDWF  1F,F
+....................          
+....................         u8TenSecL <<= 4; 
+032E:  SWAPF  1A,F
+0330:  MOVLW  F0
+0332:  ANDWF  1A,F
+....................         u8TenMinL <<= 4; 
+0334:  SWAPF  1C,F
+0336:  ANDWF  1C,F
+....................         u8TenHourL <<= 4; 
+0338:  SWAPF  1E,F
+033A:  ANDWF  1E,F
+....................  
+....................         u8TenSecL &= TenSec_Mask; 
+033C:  MOVLW  70
+033E:  ANDWF  1A,F
+....................         u8TenMinL &= TenMin_Mask; 
+0340:  ANDWF  1C,F
+....................         u8TenHourL &= TenHour_Mask; 
+0342:  MOVLW  30
+0344:  ANDWF  1E,F
+....................  
+....................         u8SecL|=u8TensecL; 
+0346:  MOVF   1A,W
+0348:  IORWF  1B,F
+....................         u8MinL|=u8TenMinL; 
+034A:  MOVF   1C,W
+034C:  IORWF  1D,F
+....................         u8HourL|=u8TenHourL; 
+034E:  MOVF   1E,W
+0350:  IORWF  1F,F
+....................  
+....................         DS3231_Write(0,&u8SecL,1); 
+0352:  CLRF   20
+0354:  CLRF   22
+0356:  MOVLW  1B
+0358:  MOVWF  21
+035A:  MOVLW  01
+035C:  MOVWF  23
+035E:  RCALL  02CA
+....................         DS3231_Write(1,&u8MinL,1); 
+0360:  MOVLW  01
+0362:  MOVWF  20
+0364:  CLRF   22
+0366:  MOVLW  1D
+0368:  MOVWF  21
+036A:  MOVLW  01
+036C:  MOVWF  23
+036E:  RCALL  02CA
+....................         DS3231_Write(2,&u8HourL,1); 
+0370:  MOVLW  02
+0372:  MOVWF  20
+0374:  CLRF   22
+0376:  MOVLW  1F
+0378:  MOVWF  21
+037A:  MOVLW  01
+037C:  MOVWF  23
+037E:  RCALL  02CA
+....................     } 
+0380:  GOTO   099C (RETURN)
+.................... } 
+.................... //////////////////////////////////////////////////////////////////////////////// 
+.................... void DS3231_Init_Data(uint8 u8FlagInitP,uint8 *pDataP) 
+0384:  MOVLW  02
+0386:  MOVWF  1A
+0388:  MOVLW  07
+038A:  MOVWF  1B
+038C:  MOVLW  01
+038E:  MOVWF  1C
+0390:  MOVLW  02
+0392:  MOVWF  1D
+0394:  MOVLW  01
+0396:  MOVWF  1E
+0398:  MOVLW  05
+039A:  MOVWF  1F
+.................... { 
+....................     uint8 u8TenDateL=2; 
+....................     uint8 u8DateL=7; 
+....................     uint8 u8TenMonthL=1; 
+....................     uint8 u8MonthL=2; 
+....................     uint8 u8TenYearL=1; 
+....................     uint8 u8YearL=5; 
+....................  
+....................     if(u8FlagInitP = 1) 
+039C:  MOVLW  01
+039E:  MOVWF  17
+03A0:  MOVF   17,F
+03A2:  BZ    0402
+....................     { 
+....................  
+....................         u8DateL &= Date_Mask; 
+03A4:  MOVLW  0F
+03A6:  ANDWF  1B,F
+....................         u8MonthL &= Month_Mask; 
+03A8:  ANDWF  1D,F
+....................         u8YearL &= Year_Mask; 
+03AA:  ANDWF  1F,F
+....................  
+....................         u8TenDateL  <<= 4; 
+03AC:  SWAPF  1A,F
+03AE:  MOVLW  F0
+03B0:  ANDWF  1A,F
+....................         u8TenMonthL <<= 4; 
+03B2:  SWAPF  1C,F
+03B4:  ANDWF  1C,F
+....................         u8TenYearL  <<= 4; 
+03B6:  SWAPF  1E,F
+03B8:  ANDWF  1E,F
+....................  
+....................         u8TenDateL  &= TenDate_Mask; 
+03BA:  MOVLW  30
+03BC:  ANDWF  1A,F
+....................         u8TenMonthL &= TenMonth_Mask; 
+03BE:  MOVLW  10
+03C0:  ANDWF  1C,F
+....................         u8TenYearL  &= TenYear_Mask; 
+03C2:  MOVLW  F0
+03C4:  ANDWF  1E,F
+....................  
+....................         u8DateL |= u8TenDateL; 
+03C6:  MOVF   1A,W
+03C8:  IORWF  1B,F
+....................         u8MonthL |= u8TenMonthL; 
+03CA:  MOVF   1C,W
+03CC:  IORWF  1D,F
+....................         u8YearL |= u8TenYearL; 
+03CE:  MOVF   1E,W
+03D0:  IORWF  1F,F
+....................          
+....................         DS3231_Write(4,&u8DateL,1); 
+03D2:  MOVLW  04
+03D4:  MOVWF  20
+03D6:  CLRF   22
+03D8:  MOVLW  1B
+03DA:  MOVWF  21
+03DC:  MOVLW  01
+03DE:  MOVWF  23
+03E0:  RCALL  02CA
+....................         DS3231_Write(5,&u8MonthL,1); 
+03E2:  MOVLW  05
+03E4:  MOVWF  20
+03E6:  CLRF   22
+03E8:  MOVLW  1D
+03EA:  MOVWF  21
+03EC:  MOVLW  01
+03EE:  MOVWF  23
+03F0:  RCALL  02CA
+....................         DS3231_Write(6,&u8YearL,1); 
+03F2:  MOVLW  06
+03F4:  MOVWF  20
+03F6:  CLRF   22
+03F8:  MOVLW  1F
+03FA:  MOVWF  21
+03FC:  MOVLW  01
+03FE:  MOVWF  23
+0400:  RCALL  02CA
+....................     } 
+0402:  GOTO   09A8 (RETURN)
+.................... } 
+....................  
+.................... //////////////////////////////////////////////////////////////////////////////// 
+.................... void DS3231_Read_Clock(uint8 *pDataP) 
+.................... { 
+....................     uint8 ClockBuff[3]; 
+....................  
+....................     DS3231_Reade_Pointer(0,ClockBuff,3); 
+*
+04A8:  CLRF   1F
+04AA:  CLRF   21
+04AC:  MOVLW  1B
+04AE:  MOVWF  20
+04B0:  MOVLW  03
+04B2:  MOVWF  22
+04B4:  RCALL  0422
+....................  
+....................     pDataP[Sec]     = (ClockBuff[0] & Sec_Mask); 
+04B6:  MOVFF  19,FE9
+04BA:  MOVFF  1A,FEA
+04BE:  MOVF   1B,W
+04C0:  ANDLW  0F
+04C2:  MOVWF  FEF
+....................     pDataP[TenSec]  = ((ClockBuff[0] & TenSec_Mask)>>4); 
+04C4:  MOVLW  01
+04C6:  ADDWF  19,W
+04C8:  MOVWF  FE9
+04CA:  MOVLW  00
+04CC:  ADDWFC 1A,W
+04CE:  MOVWF  FEA
+04D0:  MOVF   1B,W
+04D2:  ANDLW  70
+04D4:  MOVWF  00
+04D6:  SWAPF  00,F
+04D8:  MOVLW  0F
+04DA:  ANDWF  00,F
+04DC:  MOVFF  00,FEF
+....................     pDataP[Min]     = (ClockBuff[1] & Min_Mask); 
+04E0:  MOVLW  02
+04E2:  ADDWF  19,W
+04E4:  MOVWF  FE9
+04E6:  MOVLW  00
+04E8:  ADDWFC 1A,W
+04EA:  MOVWF  FEA
+04EC:  MOVF   1C,W
+04EE:  ANDLW  0F
+04F0:  MOVWF  FEF
+....................     pDataP[TenMin]  = ((ClockBuff[1] & TenMin_Mask)>>4); 
+04F2:  MOVLW  03
+04F4:  ADDWF  19,W
+04F6:  MOVWF  FE9
+04F8:  MOVLW  00
+04FA:  ADDWFC 1A,W
+04FC:  MOVWF  FEA
+04FE:  MOVF   1C,W
+0500:  ANDLW  70
+0502:  MOVWF  00
+0504:  SWAPF  00,F
+0506:  MOVLW  0F
+0508:  ANDWF  00,F
+050A:  MOVFF  00,FEF
+....................     pDataP[Hour]    = (ClockBuff[2] & Hour_Mask); 
+050E:  MOVLW  04
+0510:  ADDWF  19,W
+0512:  MOVWF  FE9
+0514:  MOVLW  00
+0516:  ADDWFC 1A,W
+0518:  MOVWF  FEA
+051A:  MOVF   1D,W
+051C:  ANDLW  0F
+051E:  MOVWF  FEF
+....................     pDataP[TenHour] = ((ClockBuff[2] & TenHour_Mask)>>4); 
+0520:  MOVLW  05
+0522:  ADDWF  19,W
+0524:  MOVWF  FE9
+0526:  MOVLW  00
+0528:  ADDWFC 1A,W
+052A:  MOVWF  FEA
+052C:  MOVF   1D,W
+052E:  ANDLW  30
+0530:  MOVWF  00
+0532:  SWAPF  00,F
+0534:  MOVLW  0F
+0536:  ANDWF  00,F
+0538:  MOVFF  00,FEF
+053C:  GOTO   0624 (RETURN)
+.................... } 
+.................... //////////////////////////////////////////////////////////////////////////////// 
+.................... void DS3231_Print_Clock(uint8 *pDataP) 
+.................... { 
+....................  
+....................     DS3231_Read_Clock(pDataP); 
+*
+061A:  MOVFF  18,1A
+061E:  MOVFF  17,19
+0622:  BRA    04A8
+....................     printf("\n\r%d%d:%d%d:%d%d",pDataP[TenHour],pDataP[Hour], 
+....................                            pDataP[TenMin],pDataP[Min], 
+....................                            pDataP[TenSec],pDataP[Sec]); 
+0624:  MOVLW  05
+0626:  ADDWF  17,W
+0628:  MOVWF  FE9
+062A:  MOVLW  00
+062C:  ADDWFC 18,W
+062E:  MOVWF  FEA
+0630:  MOVFF  FEF,19
+0634:  MOVLW  04
+0636:  ADDWF  17,W
+0638:  MOVWF  FE9
+063A:  MOVLW  00
+063C:  ADDWFC 18,W
+063E:  MOVWF  FEA
+0640:  MOVFF  FEF,1A
+0644:  MOVLW  03
+0646:  ADDWF  17,W
+0648:  MOVWF  FE9
+064A:  MOVLW  00
+064C:  ADDWFC 18,W
+064E:  MOVWF  FEA
+0650:  MOVFF  FEF,1B
+0654:  MOVLW  02
+0656:  ADDWF  17,W
+0658:  MOVWF  FE9
+065A:  MOVLW  00
+065C:  ADDWFC 18,W
+065E:  MOVWF  FEA
+0660:  MOVFF  FEF,1C
+0664:  MOVLW  01
+0666:  ADDWF  17,W
+0668:  MOVWF  FE9
+066A:  MOVLW  00
+066C:  ADDWFC 18,W
+066E:  MOVWF  FEA
+0670:  MOVFF  FEF,1D
+0674:  MOVFF  17,FE9
+0678:  MOVFF  18,FEA
+067C:  MOVFF  FEF,1E
+0680:  MOVLW  0A
+0682:  BTFSS  F9E.4
+0684:  BRA    0682
+0686:  MOVWF  FAE
+0688:  MOVLW  0D
+068A:  BTFSS  F9E.4
+068C:  BRA    068A
+068E:  MOVWF  FAE
+0690:  MOVFF  19,1F
+0694:  MOVLW  18
+0696:  MOVWF  20
+0698:  RCALL  0568
+069A:  MOVFF  1A,1F
+069E:  MOVLW  18
+06A0:  MOVWF  20
+06A2:  RCALL  0568
+06A4:  MOVLW  3A
+06A6:  BTFSS  F9E.4
+06A8:  BRA    06A6
+06AA:  MOVWF  FAE
+06AC:  MOVFF  1B,1F
+06B0:  MOVLW  18
+06B2:  MOVWF  20
+06B4:  RCALL  0568
+06B6:  MOVFF  1C,1F
+06BA:  MOVLW  18
+06BC:  MOVWF  20
+06BE:  RCALL  0568
+06C0:  MOVLW  3A
+06C2:  BTFSS  F9E.4
+06C4:  BRA    06C2
+06C6:  MOVWF  FAE
+06C8:  MOVFF  1D,1F
+06CC:  MOVLW  18
+06CE:  MOVWF  20
+06D0:  RCALL  0568
+06D2:  MOVFF  1E,1F
+06D6:  MOVLW  18
+06D8:  MOVWF  20
+06DA:  RCALL  0568
+06DC:  GOTO   09BA (RETURN)
+....................  
+.................... } 
+.................... //////////////////////////////////////////////////////////////////////////////// 
+.................... void DS3231_Read_Data(uint8 *pDataP) 
+.................... { 
+....................     uint8 ClockBuff[4]; 
+....................  
+....................     DS3231_Reade_Pointer(3,ClockBuff,4); 
+06E0:  MOVLW  03
+06E2:  MOVWF  1F
+06E4:  CLRF   21
+06E6:  MOVLW  1B
+06E8:  MOVWF  20
+06EA:  MOVLW  04
+06EC:  MOVWF  22
+06EE:  RCALL  0422
+....................  
+....................     pDataP[Day]     = (ClockBuff[1] & Day_Mask); 
+06F0:  MOVFF  19,FE9
+06F4:  MOVFF  1A,FEA
+06F8:  MOVF   1C,W
+06FA:  ANDLW  07
+06FC:  MOVWF  FEF
+....................  
+....................     pDataP[Date]     = (ClockBuff[1] & Date_Mask); 
+06FE:  MOVLW  01
+0700:  ADDWF  19,W
+0702:  MOVWF  FE9
+0704:  MOVLW  00
+0706:  ADDWFC 1A,W
+0708:  MOVWF  FEA
+070A:  MOVF   1C,W
+070C:  ANDLW  0F
+070E:  MOVWF  FEF
+....................     pDataP[TenDate]  = ((ClockBuff[1] & TenDate_Mask)>>4); 
+0710:  MOVLW  02
+0712:  ADDWF  19,W
+0714:  MOVWF  FE9
+0716:  MOVLW  00
+0718:  ADDWFC 1A,W
+071A:  MOVWF  FEA
+071C:  MOVF   1C,W
+071E:  ANDLW  30
+0720:  MOVWF  00
+0722:  SWAPF  00,F
+0724:  MOVLW  0F
+0726:  ANDWF  00,F
+0728:  MOVFF  00,FEF
+....................     pDataP[Month]     = (ClockBuff[2] & Month_Mask); 
+072C:  MOVLW  03
+072E:  ADDWF  19,W
+0730:  MOVWF  FE9
+0732:  MOVLW  00
+0734:  ADDWFC 1A,W
+0736:  MOVWF  FEA
+0738:  MOVF   1D,W
+073A:  ANDLW  0F
+073C:  MOVWF  FEF
+....................     pDataP[TenMonth]  = ((ClockBuff[2] & TenMonth_Mask)>>4); 
+073E:  MOVLW  04
+0740:  ADDWF  19,W
+0742:  MOVWF  FE9
+0744:  MOVLW  00
+0746:  ADDWFC 1A,W
+0748:  MOVWF  FEA
+074A:  MOVF   1D,W
+074C:  ANDLW  10
+074E:  MOVWF  00
+0750:  SWAPF  00,F
+0752:  MOVLW  0F
+0754:  ANDWF  00,F
+0756:  MOVFF  00,FEF
+....................     pDataP[Year]    = (ClockBuff[3] & Year_Mask); 
+075A:  MOVLW  05
+075C:  ADDWF  19,W
+075E:  MOVWF  FE9
+0760:  MOVLW  00
+0762:  ADDWFC 1A,W
+0764:  MOVWF  FEA
+0766:  MOVF   1E,W
+0768:  ANDLW  0F
+076A:  MOVWF  FEF
+....................     pDataP[TenYear] = ((ClockBuff[3] & TenYear_Mask)>>4); 
+076C:  MOVLW  06
+076E:  ADDWF  19,W
+0770:  MOVWF  FE9
+0772:  MOVLW  00
+0774:  ADDWFC 1A,W
+0776:  MOVWF  FEA
+0778:  MOVF   1E,W
+077A:  ANDLW  F0
+077C:  MOVWF  00
+077E:  SWAPF  00,F
+0780:  MOVLW  0F
+0782:  ANDWF  00,F
+0784:  MOVFF  00,FEF
+0788:  GOTO   0796 (RETURN)
+.................... } 
+.................... //////////////////////////////////////////////////////////////////////////////// 
+.................... void DS3231_Print_Data(uint8 *pDataP) 
+.................... { 
+....................  
+....................     DS3231_Read_Data(pDataP); 
+078C:  MOVFF  18,1A
+0790:  MOVFF  17,19
+0794:  BRA    06E0
+....................     printf("\n\r%d%d\\%d%d\\%d%d  ",pDataP[TenDate],pDataP[Date], 
+....................                            pDataP[TenMonth],pDataP[Month], 
+....................                            pDataP[TenYear],pDataP[Year]); 
+0796:  MOVLW  02
+0798:  ADDWF  17,W
+079A:  MOVWF  FE9
+079C:  MOVLW  00
+079E:  ADDWFC 18,W
+07A0:  MOVWF  FEA
+07A2:  MOVFF  FEF,19
+07A6:  MOVLW  01
+07A8:  ADDWF  17,W
+07AA:  MOVWF  FE9
+07AC:  MOVLW  00
+07AE:  ADDWFC 18,W
+07B0:  MOVWF  FEA
+07B2:  MOVFF  FEF,1A
+07B6:  MOVLW  04
+07B8:  ADDWF  17,W
+07BA:  MOVWF  FE9
+07BC:  MOVLW  00
+07BE:  ADDWFC 18,W
+07C0:  MOVWF  FEA
+07C2:  MOVFF  FEF,1B
+07C6:  MOVLW  03
+07C8:  ADDWF  17,W
+07CA:  MOVWF  FE9
+07CC:  MOVLW  00
+07CE:  ADDWFC 18,W
+07D0:  MOVWF  FEA
+07D2:  MOVFF  FEF,1C
+07D6:  MOVLW  06
+07D8:  ADDWF  17,W
+07DA:  MOVWF  FE9
+07DC:  MOVLW  00
+07DE:  ADDWFC 18,W
+07E0:  MOVWF  FEA
+07E2:  MOVFF  FEF,1D
+07E6:  MOVLW  05
+07E8:  ADDWF  17,W
+07EA:  MOVWF  FE9
+07EC:  MOVLW  00
+07EE:  ADDWFC 18,W
+07F0:  MOVWF  FEA
+07F2:  MOVFF  FEF,1E
+07F6:  MOVLW  0A
+07F8:  BTFSS  F9E.4
+07FA:  BRA    07F8
+07FC:  MOVWF  FAE
+07FE:  MOVLW  0D
+0800:  BTFSS  F9E.4
+0802:  BRA    0800
+0804:  MOVWF  FAE
+0806:  MOVFF  19,1F
+080A:  MOVLW  18
+080C:  MOVWF  20
+080E:  RCALL  0568
+0810:  MOVFF  1A,1F
+0814:  MOVLW  18
+0816:  MOVWF  20
+0818:  RCALL  0568
+081A:  MOVLW  5C
+081C:  BTFSS  F9E.4
+081E:  BRA    081C
+0820:  MOVWF  FAE
+0822:  MOVFF  1B,1F
+0826:  MOVLW  18
+0828:  MOVWF  20
+082A:  RCALL  0568
+082C:  MOVFF  1C,1F
+0830:  MOVLW  18
+0832:  MOVWF  20
+0834:  RCALL  0568
+0836:  MOVLW  5C
+0838:  BTFSS  F9E.4
+083A:  BRA    0838
+083C:  MOVWF  FAE
+083E:  MOVFF  1D,1F
+0842:  MOVLW  18
+0844:  MOVWF  20
+0846:  RCALL  0568
+0848:  MOVFF  1E,1F
+084C:  MOVLW  18
+084E:  MOVWF  20
+0850:  RCALL  0568
+0852:  MOVLW  20
+0854:  BTFSS  F9E.4
+0856:  BRA    0854
+0858:  MOVWF  FAE
+085A:  MOVLW  20
+085C:  BTFSS  F9E.4
+085E:  BRA    085C
+0860:  MOVWF  FAE
+....................     switch(pDataP[Day]) 
+0862:  MOVFF  17,FE9
+0866:  MOVFF  18,FEA
+086A:  MOVLW  01
+086C:  SUBWF  FEF,W
+086E:  ADDLW  F9
+0870:  BC    08F4
+0872:  ADDLW  07
+0874:  GOTO   08F8
+....................     { 
+....................         case Monday :  
+....................             printf("Mo"); 
+0878:  MOVLW  4D
+087A:  BTFSS  F9E.4
+087C:  BRA    087A
+087E:  MOVWF  FAE
+0880:  MOVLW  6F
+0882:  BTFSS  F9E.4
+0884:  BRA    0882
+0886:  MOVWF  FAE
+....................             break; 
+0888:  BRA    08F4
+....................         case Tuesday : 
+....................             printf("Tu"); 
+088A:  MOVLW  54
+088C:  BTFSS  F9E.4
+088E:  BRA    088C
+0890:  MOVWF  FAE
+0892:  MOVLW  75
+0894:  BTFSS  F9E.4
+0896:  BRA    0894
+0898:  MOVWF  FAE
+....................             break; 
+089A:  BRA    08F4
+....................         case Wednesday : 
+....................             printf("We"); 
+089C:  MOVLW  57
+089E:  BTFSS  F9E.4
+08A0:  BRA    089E
+08A2:  MOVWF  FAE
+08A4:  MOVLW  65
+08A6:  BTFSS  F9E.4
+08A8:  BRA    08A6
+08AA:  MOVWF  FAE
+....................             break; 
+08AC:  BRA    08F4
+....................         case Thursday : 
+....................             printf("Th"); 
+08AE:  MOVLW  54
+08B0:  BTFSS  F9E.4
+08B2:  BRA    08B0
+08B4:  MOVWF  FAE
+08B6:  MOVLW  68
+08B8:  BTFSS  F9E.4
+08BA:  BRA    08B8
+08BC:  MOVWF  FAE
+....................             break; 
+08BE:  BRA    08F4
+....................         case Friday : 
+....................             printf("Fr"); 
+08C0:  MOVLW  46
+08C2:  BTFSS  F9E.4
+08C4:  BRA    08C2
+08C6:  MOVWF  FAE
+08C8:  MOVLW  72
+08CA:  BTFSS  F9E.4
+08CC:  BRA    08CA
+08CE:  MOVWF  FAE
+....................             break; 
+08D0:  BRA    08F4
+....................         case Saturday : 
+....................             printf("Sa"); 
+08D2:  MOVLW  53
+08D4:  BTFSS  F9E.4
+08D6:  BRA    08D4
+08D8:  MOVWF  FAE
+08DA:  MOVLW  61
+08DC:  BTFSS  F9E.4
+08DE:  BRA    08DC
+08E0:  MOVWF  FAE
+....................             break; 
+08E2:  BRA    08F4
+....................         case Sunday : 
+....................             printf("Su"); 
+08E4:  MOVLW  53
+08E6:  BTFSS  F9E.4
+08E8:  BRA    08E6
+08EA:  MOVWF  FAE
+08EC:  MOVLW  75
+08EE:  BTFSS  F9E.4
+08F0:  BRA    08EE
+08F2:  MOVWF  FAE
+....................             break; 
+....................     } 
+08F4:  GOTO   09C2 (RETURN)
+....................  
+.................... } 
+....................  
+....................  
+.................... void main() 
+*
+0920:  CLRF   FF8
+0922:  BCF    FD0.7
+0924:  BCF    F7E.3
+0926:  MOVLW  19
+0928:  MOVWF  FB0
+092A:  MOVLW  A6
+092C:  MOVWF  FAD
+092E:  MOVLW  90
+0930:  MOVWF  FAC
+0932:  BSF    F93.4
+0934:  BSF    F93.5
+0936:  MOVLW  1D
+0938:  MOVWF  FC8
+093A:  MOVLW  28
+093C:  MOVWF  FC6
+093E:  BCF    FC7.7
+0940:  BCF    FC7.6
+0942:  MOVLW  FF
+0944:  MOVLB  F
+0946:  MOVWF  x48
+0948:  BCF    FC2.6
+094A:  BCF    FC2.7
+094C:  MOVF   x49,W
+094E:  ANDLW  E0
+0950:  IORLW  1F
+0952:  MOVWF  x49
+0954:  CLRF   FD2
+0956:  CLRF   FD1
+0958:  CLRF   15
+095A:  CLRF   16
+.................... { 
+....................     uint8 DataL[16]; 
+....................     uint8 u8Count = 0; 
+....................     uint8 u8AckL = 0; 
+....................  
+....................     while(OSTS == 0); 
+095C:  BTFSS  FD3.3
+095E:  BRA    095C
+....................     PLLEN = 1; 
+0960:  BSF    F9B.6
+....................  
+....................     delay_ms( 250 ); 
+0962:  MOVLW  FA
+0964:  MOVWF  18
+0966:  MOVLB  0
+0968:  RCALL  0260
+....................  
+....................     printf("\n\rproba za init\n\r"); 
+096A:  MOVLW  3A
+096C:  MOVWF  FF6
+096E:  MOVLW  02
+0970:  MOVWF  FF7
+0972:  RCALL  028C
+....................  
+....................     for(u8Count = 0; u8Count <= 15; u8Count++) 
+0974:  CLRF   15
+0976:  MOVF   15,W
+0978:  SUBLW  0F
+097A:  BNC   0990
+....................     { 
+....................        DataL[u8Count]=0; 
+097C:  CLRF   03
+097E:  MOVF   15,W
+0980:  ADDLW  05
+0982:  MOVWF  FE9
+0984:  MOVLW  00
+0986:  ADDWFC 03,W
+0988:  MOVWF  FEA
+098A:  CLRF   FEF
+098C:  INCF   15,F
+098E:  BRA    0976
+....................     } 
+....................      
+....................     DS3231_Init_Clock(1,DataL); 
+0990:  MOVLW  01
+0992:  MOVWF  17
+0994:  CLRF   19
+0996:  MOVLW  05
+0998:  MOVWF  18
+099A:  BRA    030E
+....................     DS3231_Init_Data(1,DataL); 
+099C:  MOVLW  01
+099E:  MOVWF  17
+09A0:  CLRF   19
+09A2:  MOVLW  05
+09A4:  MOVWF  18
+09A6:  BRA    0384
+....................     printf("\n\rAfter SetClock\n\r"); 
+09A8:  MOVLW  4C
+09AA:  MOVWF  FF6
+09AC:  MOVLW  02
+09AE:  MOVWF  FF7
+09B0:  RCALL  028C
+.................... //    u8AckL = DS3231_Reade_Pointer(0x00, &DataL, 16); 
+.................... //    printf("\n\rDS3231_u8AckL=0x%x\n\r",u8AckL); 
+....................  
+.................... //    for(u8Count = 0; u8Count <= 15; u8Count++) 
+.................... //    { 
+.................... //        printf("\n\rData[%d]=%d\n\r",u8Count,DataL[u8Count]); 
+.................... //    } 
+....................      
+.................... //    u8AckL = SSD1306_SendCommand(SSD1306_DISPLAY_NORMAL); 
+.................... //    printf("\n\rSSD1306_u8AckL=0x%x\n\r",u8AckL); 
+....................      
+....................     while(TRUE)//FALSE)// 
+....................     { 
+.................... //        u8AckL = DS3231_Reade_Pointer(0x00, &DataL[0], 1); 
+.................... //        printf("\n\rSEkundi = %x\n\r",DataL[0]); 
+....................         DS3231_Print_Clock(DataL); 
+09B2:  CLRF   18
+09B4:  MOVLW  05
+09B6:  MOVWF  17
+09B8:  BRA    061A
+....................         DS3231_Print_Data(DataL); 
+09BA:  CLRF   18
+09BC:  MOVLW  05
+09BE:  MOVWF  17
+09C0:  BRA    078C
+....................         delay_ms(1000); 
+09C2:  MOVLW  04
+09C4:  MOVWF  17
+09C6:  MOVLW  FA
+09C8:  MOVWF  18
+09CA:  RCALL  0260
+09CC:  DECFSZ 17,F
+09CE:  BRA    09C6
+09D0:  BRA    09B2
+....................     } 
+.................... } 
+09D2:  SLEEP 
+
+Configuration Fuses:
+   Word  1: F7AC   NOWDT PLL2 STVREN NOXINST NODEBUG NOCPUDIV NOPROTECT
+   Word  2: F71A   INTRC_PLL_IO T1DIG NOLPT1OSC NOFCMEN NOIESO WDT128
+   Word  3: F8FF   DSWDTOSC_INT RTCOSC_T1 DSBOR DSWDT DSWDT2147483648 NOIOL1WAY MSSPMSK7
+   Word  4: F1DF   WPFP WPEND NOWPCFG WPDIS

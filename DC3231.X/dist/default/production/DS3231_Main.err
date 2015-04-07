@@ -1,0 +1,6 @@
+C:\Users\akulini\Desktop\Kulin\Doc\IGRACHKI\DC3231\DC3231.X\DS3231.c:113:1:  Warning#201  Assignment inside relational expression
+C:\Users\akulini\Desktop\Kulin\Doc\IGRACHKI\DC3231\DC3231.X\DS3231.c:25:11:  Warning#202  Variable never used:   u8ByteCountL
+C:\Users\akulini\Desktop\Kulin\Doc\IGRACHKI\DC3231\DC3231.X\DS3231_Main.c:11:11:  Warning#202  Variable never used:   u8AckL
+      Memory usage:   ROM=8%      RAM=1% - 1%
+      0 Errors,  3 Warnings.
+Build Successful.
